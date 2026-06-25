@@ -1,0 +1,42 @@
+# macOS and editor noise
+.DS_Store
+*.swp
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated/local working output
+output/
+.tmp_xhs_normalized/
+.skill-build/
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.heic
+*.HEIC
+*.tif
+*.tiff
+*.bmp
+
+# Video
+*.mp4
+*.mov
+*.MOV
+*.m4v
+*.avi
+*.mkv
+*.webm
+
+# Audio
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
