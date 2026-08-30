@@ -20,6 +20,7 @@ venv/
 
 # Generated/local working output
 output/
+.tmp_*
 .tmp_xhs_normalized/
 .tmp_previews/
 .skill-build/

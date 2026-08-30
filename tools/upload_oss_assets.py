@@ -59,7 +59,7 @@ def normalize_object_key(prefix: str, relative_path: Path) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Upload local media assets to Aliyun OSS.")
     parser.add_argument("--source", default="素材库", help="Local media source directory.")
-    parser.add_argument("--prefix", default="raw/素材库", help="OSS object key prefix.")
+    parser.add_argument("--prefix", default="原始素材/素材库", help="OSS object key prefix.")
     parser.add_argument("--manifest", default="assets_manifest.json", help="Manifest output path.")
     parser.add_argument("--dry-run", action="store_true", help="List files without uploading.")
     args = parser.parse_args()
