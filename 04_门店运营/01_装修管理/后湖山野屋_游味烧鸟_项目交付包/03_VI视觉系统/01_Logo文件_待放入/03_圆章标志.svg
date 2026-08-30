@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#181512"/>
+  <circle cx="400" cy="400" r="298" fill="none" stroke="#E9DFC9" stroke-width="10"/>
+  <circle cx="400" cy="400" r="270" fill="none" stroke="#A66D3F" stroke-width="2"/>
+  <path d="M245 448 C315 405 393 408 462 443 C502 463 538 466 570 453" fill="none" stroke="#354C59" stroke-width="15" stroke-linecap="round"/>
+  <path d="M258 486 C322 450 391 453 453 485 C492 505 527 508 552 498" fill="none" stroke="#354C59" stroke-width="8" stroke-linecap="round"/>
+  <path d="M520 229 L520 503" stroke="#E9DFC9" stroke-width="12" stroke-linecap="round"/>
+  <path d="M520 190 l18 18 -18 18 -18-18z" fill="#D89A48"/>
+  <text x="360" y="370" text-anchor="middle" fill="#E9DFC9" font-family="'Source Han Serif SC','Noto Serif CJK SC','Songti SC',serif" font-size="112" font-weight="600" letter-spacing="8">游味</text>
+  <text x="360" y="555" text-anchor="middle" fill="#E9DFC9" font-family="'Source Han Serif SC','Noto Serif CJK SC','Songti SC',serif" font-size="70" font-weight="600" letter-spacing="20">烧鸟</text>
+  <text x="400" y="652" text-anchor="middle" fill="#D89A48" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="7">YOU WEI · YAKITORI</text>
+</svg>

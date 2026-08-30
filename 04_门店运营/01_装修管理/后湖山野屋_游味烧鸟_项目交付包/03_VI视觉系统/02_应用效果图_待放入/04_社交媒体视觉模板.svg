@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#181512"/>
+  <rect x="70" y="70" width="680" height="860" rx="18" fill="#354C59"/>
+  <circle cx="410" cy="395" r="230" fill="#1D2529" opacity=".7"/>
+  <path d="M110 560 C250 475 400 480 545 553 C620 591 680 592 730 570" fill="none" stroke="#E9DFC9" stroke-width="10" opacity=".18"/>
+  <path d="M130 625 C260 555 399 562 526 625 C600 662 663 664 716 645" fill="none" stroke="#E9DFC9" stroke-width="6" opacity=".12"/>
+  <g transform="translate(130 125)"><circle cx="45" cy="45" r="43" fill="none" stroke="#E9DFC9" stroke-width="3"/><text x="45" y="54" text-anchor="middle" fill="#E9DFC9" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="25">游味</text></g>
+  <text x="135" y="680" fill="#E9DFC9" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="62" font-weight="600">今晚风刚好。</text>
+  <text x="138" y="742" fill="#D89A48" font-family="'Microsoft YaHei',sans-serif" font-size="28">炭火亮了，坐下来吧。</text>
+  <text x="138" y="850" fill="#E9DFC9" opacity=".7" font-family="Arial,sans-serif" font-size="18" letter-spacing="5">YOU WEI · YAKITORI / HOUHU</text>
+  <rect x="830" y="70" width="700" height="860" rx="18" fill="#E9DFC9"/>
+  <rect x="830" y="70" width="700" height="420" rx="18" fill="#805638"/>
+  <rect x="830" y="470" width="700" height="20" fill="#805638"/>
+  <path d="M900 330 C1030 260 1170 268 1300 333 C1375 370 1440 368 1500 346" fill="none" stroke="#D89A48" stroke-width="8" opacity=".75"/>
+  <path d="M1275 192 L1275 374" stroke="#E9DFC9" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1275 160 l15 15 -15 15 -15-15z" fill="#D89A48"/>
+  <text x="900" y="595" fill="#181512" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="55" font-weight="600">后湖有风</text>
+  <text x="900" y="660" fill="#181512" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="55" font-weight="600">炭火有味</text>
+  <line x1="900" y1="715" x2="1450" y2="715" stroke="#A66D3F"/>
+  <text x="900" y="775" fill="#354C59" font-family="'Microsoft YaHei',sans-serif" font-size="25">周五 18:00 · 后湖木屋</text>
+  <text x="900" y="838" fill="#805638" font-family="Arial,sans-serif" font-size="17" letter-spacing="4">ONE SKEWER · ONE NIGHT BREEZE</text>
+</svg>

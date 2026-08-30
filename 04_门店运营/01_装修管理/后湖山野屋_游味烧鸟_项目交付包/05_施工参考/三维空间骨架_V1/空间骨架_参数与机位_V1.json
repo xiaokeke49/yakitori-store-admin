@@ -1,0 +1,1632 @@
+{
+  "model": "游味烧鸟_固定空间骨架_V1",
+  "units": "meters",
+  "axes": {
+    "x": "left/west to right/east",
+    "y": "front/lake/visitor to rear",
+    "z": "up"
+  },
+  "overall": {
+    "rear_width": 11.7,
+    "front_main_width": 10.6,
+    "depth": 4.45,
+    "front_depth": 1.85,
+    "rear_depth": 2.6,
+    "level_difference": 0.2
+  },
+  "materials": {
+    "platform_low": [
+      0.3,
+      0.22,
+      0.15
+    ],
+    "platform_high": [
+      0.38,
+      0.27,
+      0.17
+    ],
+    "wood": [
+      0.3,
+      0.18,
+      0.09
+    ],
+    "wood_light": [
+      0.58,
+      0.37,
+      0.18
+    ],
+    "dark_wood": [
+      0.15,
+      0.09,
+      0.055
+    ],
+    "counter": [
+      0.42,
+      0.26,
+      0.13
+    ],
+    "sofa": [
+      0.66,
+      0.59,
+      0.49
+    ],
+    "rug": [
+      0.42,
+      0.34,
+      0.25
+    ],
+    "black": [
+      0.08,
+      0.075,
+      0.07
+    ],
+    "metal": [
+      0.25,
+      0.28,
+      0.29
+    ],
+    "glass": [
+      0.36,
+      0.55,
+      0.62
+    ],
+    "plant": [
+      0.16,
+      0.3,
+      0.18
+    ],
+    "lantern": [
+      0.95,
+      0.72,
+      0.35
+    ],
+    "wall": [
+      0.32,
+      0.29,
+      0.25
+    ],
+    "accent": [
+      0.75,
+      0.32,
+      0.12
+    ]
+  },
+  "objects": [
+    {
+      "name": "front_platform",
+      "kind": "box",
+      "center": [
+        5.3,
+        0.925,
+        0.1
+      ],
+      "size": [
+        10.6,
+        1.85,
+        0.2
+      ],
+      "material": "platform_low",
+      "category": "architecture",
+      "note": "10.6m front body"
+    },
+    {
+      "name": "rear_platform",
+      "kind": "box",
+      "center": [
+        5.85,
+        3.15,
+        0.2
+      ],
+      "size": [
+        11.7,
+        2.6,
+        0.4
+      ],
+      "material": "platform_high",
+      "category": "architecture",
+      "note": "11.7m rear edge; top is 0.20m above front"
+    },
+    {
+      "name": "central_transition_step",
+      "kind": "box",
+      "center": [
+        6.15,
+        1.78,
+        0.28
+      ],
+      "size": [
+        2.1,
+        0.28,
+        0.16
+      ],
+      "material": "wood_light",
+      "category": "architecture",
+      "note": ""
+    },
+    {
+      "name": "rear_lounge_wall",
+      "kind": "box",
+      "center": [
+        4.25,
+        4.4,
+        1.58
+      ],
+      "size": [
+        6.2,
+        0.1,
+        2.35
+      ],
+      "material": "wall",
+      "category": "architecture",
+      "note": ""
+    },
+    {
+      "name": "rear_kitchen_wall",
+      "kind": "box",
+      "center": [
+        9.55,
+        4.4,
+        1.58
+      ],
+      "size": [
+        4.1,
+        0.12,
+        2.35
+      ],
+      "material": "black",
+      "category": "architecture",
+      "note": ""
+    },
+    {
+      "name": "right_kitchen_wall",
+      "kind": "box",
+      "center": [
+        11.64,
+        3.15,
+        1.55
+      ],
+      "size": [
+        0.12,
+        2.5,
+        2.3
+      ],
+      "material": "black",
+      "category": "architecture",
+      "note": ""
+    },
+    {
+      "name": "left_front_planter",
+      "kind": "box",
+      "center": [
+        2.6,
+        0.16,
+        0.28
+      ],
+      "size": [
+        5.2,
+        0.32,
+        0.56
+      ],
+      "material": "plant",
+      "category": "landscape",
+      "note": "plan length from plan: 5.20m"
+    },
+    {
+      "name": "left_side_planter",
+      "kind": "box",
+      "center": [
+        0.16,
+        1.55,
+        0.28
+      ],
+      "size": [
+        0.32,
+        2.45,
+        0.56
+      ],
+      "material": "plant",
+      "category": "landscape",
+      "note": ""
+    },
+    {
+      "name": "horizontal_lake_bar",
+      "kind": "box",
+      "center": [
+        2.8,
+        0.78,
+        0.65
+      ],
+      "size": [
+        3.6,
+        0.3,
+        0.9
+      ],
+      "material": "wood_light",
+      "category": "counter",
+      "note": "MUST remain horizontal; 3.60 x 0.30m; provisional top 1.10m"
+    },
+    {
+      "name": "lake_bar_stool_1",
+      "kind": "box",
+      "center": [
+        1.6,
+        1.3,
+        0.48
+      ],
+      "size": [
+        0.45,
+        0.45,
+        0.56
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "lake_bar_stool_2",
+      "kind": "box",
+      "center": [
+        2.2,
+        1.3,
+        0.48
+      ],
+      "size": [
+        0.45,
+        0.45,
+        0.56
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "lake_bar_stool_3",
+      "kind": "box",
+      "center": [
+        2.8,
+        1.3,
+        0.48
+      ],
+      "size": [
+        0.45,
+        0.45,
+        0.56
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "lake_bar_stool_4",
+      "kind": "box",
+      "center": [
+        3.4,
+        1.3,
+        0.48
+      ],
+      "size": [
+        0.45,
+        0.45,
+        0.56
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "lake_bar_stool_5",
+      "kind": "box",
+      "center": [
+        4.0,
+        1.3,
+        0.48
+      ],
+      "size": [
+        0.45,
+        0.45,
+        0.56
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "left_lounge_rug",
+      "kind": "box",
+      "center": [
+        2.15,
+        3.25,
+        0.43
+      ],
+      "size": [
+        2.95,
+        1.65,
+        0.04
+      ],
+      "material": "rug",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "left_lounge_sofa_seat",
+      "kind": "box",
+      "center": [
+        2.15,
+        3.84,
+        0.7
+      ],
+      "size": [
+        2.0,
+        0.72,
+        0.34
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "left_lounge_sofa_back",
+      "kind": "box",
+      "center": [
+        2.15,
+        4.13,
+        1.0
+      ],
+      "size": [
+        2.0,
+        0.16,
+        0.72
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "left_lounge_armchair_L_seat",
+      "kind": "box",
+      "center": [
+        0.95,
+        3.05,
+        0.68
+      ],
+      "size": [
+        0.6,
+        0.6,
+        0.32
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "left_lounge_armchair_L_back",
+      "kind": "box",
+      "center": [
+        0.95,
+        3.3,
+        0.95
+      ],
+      "size": [
+        0.6,
+        0.12,
+        0.62
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "left_lounge_armchair_R_seat",
+      "kind": "box",
+      "center": [
+        3.3499999999999996,
+        3.05,
+        0.68
+      ],
+      "size": [
+        0.6,
+        0.6,
+        0.32
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "left_lounge_armchair_R_back",
+      "kind": "box",
+      "center": [
+        3.3499999999999996,
+        3.3,
+        0.95
+      ],
+      "size": [
+        0.6,
+        0.12,
+        0.62
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "left_lounge_tea_table",
+      "kind": "box",
+      "center": [
+        2.15,
+        2.82,
+        0.67
+      ],
+      "size": [
+        1.0,
+        0.48,
+        0.3
+      ],
+      "material": "dark_wood",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_lounge_rug",
+      "kind": "box",
+      "center": [
+        5.45,
+        3.25,
+        0.43
+      ],
+      "size": [
+        2.95,
+        1.65,
+        0.04
+      ],
+      "material": "rug",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_lounge_sofa_seat",
+      "kind": "box",
+      "center": [
+        5.45,
+        3.84,
+        0.7
+      ],
+      "size": [
+        2.0,
+        0.72,
+        0.34
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_lounge_sofa_back",
+      "kind": "box",
+      "center": [
+        5.45,
+        4.13,
+        1.0
+      ],
+      "size": [
+        2.0,
+        0.16,
+        0.72
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_lounge_armchair_L_seat",
+      "kind": "box",
+      "center": [
+        4.25,
+        3.05,
+        0.68
+      ],
+      "size": [
+        0.6,
+        0.6,
+        0.32
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_lounge_armchair_L_back",
+      "kind": "box",
+      "center": [
+        4.25,
+        3.3,
+        0.95
+      ],
+      "size": [
+        0.6,
+        0.12,
+        0.62
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_lounge_armchair_R_seat",
+      "kind": "box",
+      "center": [
+        6.65,
+        3.05,
+        0.68
+      ],
+      "size": [
+        0.6,
+        0.6,
+        0.32
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_lounge_armchair_R_back",
+      "kind": "box",
+      "center": [
+        6.65,
+        3.3,
+        0.95
+      ],
+      "size": [
+        0.6,
+        0.12,
+        0.62
+      ],
+      "material": "sofa",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_lounge_tea_table",
+      "kind": "box",
+      "center": [
+        5.45,
+        2.82,
+        0.67
+      ],
+      "size": [
+        1.0,
+        0.48,
+        0.3
+      ],
+      "material": "dark_wood",
+      "category": "furniture",
+      "note": ""
+    },
+    {
+      "name": "central_entry_aisle_marker",
+      "kind": "box",
+      "center": [
+        6.25,
+        1.25,
+        0.205
+      ],
+      "size": [
+        2.05,
+        2.5,
+        0.01
+      ],
+      "material": "accent",
+      "category": "guide",
+      "note": "Keep clear of fixed furniture"
+    },
+    {
+      "name": "boardfront_counter",
+      "kind": "box",
+      "center": [
+        8.22,
+        2.45,
+        0.8
+      ],
+      "size": [
+        0.55,
+        3.75,
+        0.8
+      ],
+      "material": "counter",
+      "category": "counter",
+      "note": "Longitudinal; never rotate to facade; provisional top 1.20m"
+    },
+    {
+      "name": "boardfront_service_ridge",
+      "kind": "box",
+      "center": [
+        8.58,
+        2.45,
+        1.2
+      ],
+      "size": [
+        0.18,
+        3.75,
+        0.08
+      ],
+      "material": "wood_light",
+      "category": "counter",
+      "note": ""
+    },
+    {
+      "name": "boardfront_guest_stool_1",
+      "kind": "box",
+      "center": [
+        7.66,
+        0.95,
+        0.56
+      ],
+      "size": [
+        0.48,
+        0.48,
+        0.72
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "boardfront_guest_stool_2",
+      "kind": "box",
+      "center": [
+        7.66,
+        1.68,
+        0.56
+      ],
+      "size": [
+        0.48,
+        0.48,
+        0.72
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "boardfront_guest_stool_3",
+      "kind": "box",
+      "center": [
+        7.66,
+        2.41,
+        0.56
+      ],
+      "size": [
+        0.48,
+        0.48,
+        0.72
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "boardfront_guest_stool_4",
+      "kind": "box",
+      "center": [
+        7.66,
+        3.14,
+        0.56
+      ],
+      "size": [
+        0.48,
+        0.48,
+        0.72
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "boardfront_guest_stool_5",
+      "kind": "box",
+      "center": [
+        7.66,
+        3.87,
+        0.56
+      ],
+      "size": [
+        0.48,
+        0.48,
+        0.72
+      ],
+      "material": "dark_wood",
+      "category": "seating",
+      "note": ""
+    },
+    {
+      "name": "kitchen_worktop",
+      "kind": "box",
+      "center": [
+        10.08,
+        2.5,
+        0.88
+      ],
+      "size": [
+        0.65,
+        3.8,
+        0.96
+      ],
+      "material": "dark_wood",
+      "category": "kitchen",
+      "note": "0.65m deep work zone"
+    },
+    {
+      "name": "yakitori_grill",
+      "kind": "box",
+      "center": [
+        10.35,
+        3.55,
+        1.13
+      ],
+      "size": [
+        0.7,
+        1.25,
+        0.34
+      ],
+      "material": "black",
+      "category": "kitchen",
+      "note": ""
+    },
+    {
+      "name": "sink",
+      "kind": "box",
+      "center": [
+        10.13,
+        1.3,
+        1.05
+      ],
+      "size": [
+        0.52,
+        0.7,
+        0.12
+      ],
+      "material": "metal",
+      "category": "kitchen",
+      "note": ""
+    },
+    {
+      "name": "rear_bottle_shelf",
+      "kind": "box",
+      "center": [
+        10.85,
+        3.05,
+        1.82
+      ],
+      "size": [
+        1.2,
+        2.55,
+        1.05
+      ],
+      "material": "dark_wood",
+      "category": "kitchen",
+      "note": ""
+    },
+    {
+      "name": "display_fridge_base",
+      "kind": "box",
+      "center": [
+        10.62,
+        -0.45,
+        0.43
+      ],
+      "size": [
+        2.0,
+        0.9,
+        0.86
+      ],
+      "material": "wood_light",
+      "category": "display",
+      "note": "2.00 x 0.90m; independent from kitchen worktop"
+    },
+    {
+      "name": "display_fridge_glass",
+      "kind": "box",
+      "center": [
+        10.62,
+        -0.45,
+        1.18
+      ],
+      "size": [
+        1.9,
+        0.82,
+        0.72
+      ],
+      "material": "glass",
+      "category": "display",
+      "note": ""
+    },
+    {
+      "name": "post_0.10_0.10",
+      "kind": "box",
+      "center": [
+        0.1,
+        0.1,
+        1.54
+      ],
+      "size": [
+        0.16,
+        0.16,
+        2.7
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "post_0.10_4.35",
+      "kind": "box",
+      "center": [
+        0.1,
+        4.35,
+        1.54
+      ],
+      "size": [
+        0.16,
+        0.16,
+        2.7
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "post_3.35_0.10",
+      "kind": "box",
+      "center": [
+        3.35,
+        0.1,
+        1.54
+      ],
+      "size": [
+        0.16,
+        0.16,
+        2.7
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "post_3.35_4.35",
+      "kind": "box",
+      "center": [
+        3.35,
+        4.35,
+        1.54
+      ],
+      "size": [
+        0.16,
+        0.16,
+        2.7
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "post_7.25_0.10",
+      "kind": "box",
+      "center": [
+        7.25,
+        0.1,
+        1.54
+      ],
+      "size": [
+        0.16,
+        0.16,
+        2.7
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "post_7.25_4.35",
+      "kind": "box",
+      "center": [
+        7.25,
+        4.35,
+        1.54
+      ],
+      "size": [
+        0.16,
+        0.16,
+        2.7
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "post_11.60_0.10",
+      "kind": "box",
+      "center": [
+        11.6,
+        0.1,
+        1.54
+      ],
+      "size": [
+        0.16,
+        0.16,
+        2.7
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "post_11.60_4.35",
+      "kind": "box",
+      "center": [
+        11.6,
+        4.35,
+        1.54
+      ],
+      "size": [
+        0.16,
+        0.16,
+        2.7
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "main_beam_y_0.12",
+      "kind": "box",
+      "center": [
+        5.85,
+        0.12,
+        2.9
+      ],
+      "size": [
+        11.7,
+        0.18,
+        0.22
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "main_beam_y_1.85",
+      "kind": "box",
+      "center": [
+        5.85,
+        1.85,
+        2.9
+      ],
+      "size": [
+        11.7,
+        0.18,
+        0.22
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "main_beam_y_4.35",
+      "kind": "box",
+      "center": [
+        5.85,
+        4.35,
+        2.9
+      ],
+      "size": [
+        11.7,
+        0.18,
+        0.22
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_01",
+      "kind": "box",
+      "center": [
+        0.18,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_02",
+      "kind": "box",
+      "center": [
+        0.8470588235294116,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_03",
+      "kind": "box",
+      "center": [
+        1.5141176470588233,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_04",
+      "kind": "box",
+      "center": [
+        2.1811764705882353,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_05",
+      "kind": "box",
+      "center": [
+        2.848235294117647,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_06",
+      "kind": "box",
+      "center": [
+        3.5152941176470587,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_07",
+      "kind": "box",
+      "center": [
+        4.18235294117647,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_08",
+      "kind": "box",
+      "center": [
+        4.849411764705882,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_09",
+      "kind": "box",
+      "center": [
+        5.516470588235293,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_10",
+      "kind": "box",
+      "center": [
+        6.183529411764705,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_11",
+      "kind": "box",
+      "center": [
+        6.850588235294117,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_12",
+      "kind": "box",
+      "center": [
+        7.5176470588235285,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_13",
+      "kind": "box",
+      "center": [
+        8.18470588235294,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_14",
+      "kind": "box",
+      "center": [
+        8.851764705882353,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_15",
+      "kind": "box",
+      "center": [
+        9.518823529411764,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_16",
+      "kind": "box",
+      "center": [
+        10.185882352941174,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_17",
+      "kind": "box",
+      "center": [
+        10.852941176470587,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "rafter_18",
+      "kind": "box",
+      "center": [
+        11.52,
+        2.23,
+        3.02
+      ],
+      "size": [
+        0.1,
+        4.7,
+        0.12
+      ],
+      "material": "wood",
+      "category": "roof",
+      "note": ""
+    },
+    {
+      "name": "central_round_lantern",
+      "kind": "sphere",
+      "center": [
+        5.45,
+        3.55,
+        2.15
+      ],
+      "radius": 0.48,
+      "material": "lantern",
+      "category": "lighting",
+      "note": ""
+    },
+    {
+      "name": "left_paper_lantern_1",
+      "kind": "cylinder",
+      "center": [
+        0.85,
+        3.95,
+        2.15
+      ],
+      "radius": 0.18,
+      "height": 0.48,
+      "material": "lantern",
+      "category": "lighting",
+      "note": ""
+    },
+    {
+      "name": "left_paper_lantern_2",
+      "kind": "cylinder",
+      "center": [
+        1.55,
+        3.95,
+        2.15
+      ],
+      "radius": 0.18,
+      "height": 0.48,
+      "material": "lantern",
+      "category": "lighting",
+      "note": ""
+    },
+    {
+      "name": "left_paper_lantern_3",
+      "kind": "cylinder",
+      "center": [
+        2.25,
+        3.95,
+        2.15
+      ],
+      "radius": 0.18,
+      "height": 0.48,
+      "material": "lantern",
+      "category": "lighting",
+      "note": ""
+    },
+    {
+      "name": "left_paper_lantern_4",
+      "kind": "cylinder",
+      "center": [
+        2.95,
+        3.95,
+        2.15
+      ],
+      "radius": 0.18,
+      "height": 0.48,
+      "material": "lantern",
+      "category": "lighting",
+      "note": ""
+    },
+    {
+      "name": "left_paper_lantern_5",
+      "kind": "cylinder",
+      "center": [
+        4.1,
+        3.95,
+        2.15
+      ],
+      "radius": 0.18,
+      "height": 0.48,
+      "material": "lantern",
+      "category": "lighting",
+      "note": ""
+    },
+    {
+      "name": "left_paper_lantern_6",
+      "kind": "cylinder",
+      "center": [
+        5.0,
+        3.95,
+        2.15
+      ],
+      "radius": 0.18,
+      "height": 0.48,
+      "material": "lantern",
+      "category": "lighting",
+      "note": ""
+    },
+    {
+      "name": "planter_0.55_0.50",
+      "kind": "cylinder",
+      "center": [
+        0.55,
+        0.5,
+        0.45
+      ],
+      "radius": 0.26,
+      "height": 0.5,
+      "material": "plant",
+      "category": "landscape",
+      "note": ""
+    },
+    {
+      "name": "planter_4.95_0.45",
+      "kind": "cylinder",
+      "center": [
+        4.95,
+        0.45,
+        0.45
+      ],
+      "radius": 0.26,
+      "height": 0.5,
+      "material": "plant",
+      "category": "landscape",
+      "note": ""
+    },
+    {
+      "name": "planter_6.95_0.55",
+      "kind": "cylinder",
+      "center": [
+        6.95,
+        0.55,
+        0.45
+      ],
+      "radius": 0.26,
+      "height": 0.5,
+      "material": "plant",
+      "category": "landscape",
+      "note": ""
+    },
+    {
+      "name": "planter_7.05_1.80",
+      "kind": "cylinder",
+      "center": [
+        7.05,
+        1.8,
+        0.45
+      ],
+      "radius": 0.26,
+      "height": 0.5,
+      "material": "plant",
+      "category": "landscape",
+      "note": ""
+    },
+    {
+      "name": "planter_11.45_0.30",
+      "kind": "cylinder",
+      "center": [
+        11.45,
+        0.3,
+        0.45
+      ],
+      "radius": 0.26,
+      "height": 0.5,
+      "material": "plant",
+      "category": "landscape",
+      "note": ""
+    }
+  ],
+  "cameras": {
+    "00_俯视校验": {
+      "position": [
+        5.85,
+        2.1,
+        15.5
+      ],
+      "target": [
+        5.85,
+        2.1,
+        0.0
+      ],
+      "fov": 46
+    },
+    "01_正面主视角": {
+      "position": [
+        5.85,
+        -9.5,
+        3.65
+      ],
+      "target": [
+        5.85,
+        2.15,
+        1.2
+      ],
+      "fov": 54
+    },
+    "02_外部左前": {
+      "position": [
+        -4.2,
+        -5.8,
+        3.4
+      ],
+      "target": [
+        5.0,
+        2.1,
+        1.25
+      ],
+      "fov": 55
+    },
+    "03_外部右前": {
+      "position": [
+        16.5,
+        -5.6,
+        3.5
+      ],
+      "target": [
+        6.6,
+        2.05,
+        1.2
+      ],
+      "fov": 55
+    },
+    "04_中央步入": {
+      "position": [
+        6.25,
+        -1.2,
+        1.65
+      ],
+      "target": [
+        5.7,
+        3.65,
+        1.15
+      ],
+      "fov": 63
+    },
+    "05_左侧沙发区": {
+      "position": [
+        6.35,
+        0.35,
+        1.7
+      ],
+      "target": [
+        2.45,
+        3.25,
+        0.95
+      ],
+      "fov": 66
+    },
+    "06_板前客席区": {
+      "position": [
+        6.35,
+        0.35,
+        1.72
+      ],
+      "target": [
+        10.0,
+        3.2,
+        1.18
+      ],
+      "fov": 66
+    },
+    "07_后侧向湖": {
+      "position": [
+        9.2,
+        4.02,
+        1.88
+      ],
+      "target": [
+        1.0,
+        1.8,
+        1.05
+      ],
+      "fov": 70
+    },
+    "08_轴测总览": {
+      "position": [
+        -4.8,
+        -6.5,
+        8.5
+      ],
+      "target": [
+        5.85,
+        2.15,
+        0.85
+      ],
+      "fov": 48
+    }
+  },
+  "assumptions": [
+    "Authoritative: overall rear length 11.70m, front main length 10.60m, total depth 4.45m.",
+    "Authoritative: front depth 1.85m, rear depth 2.60m, rear deck +0.20m.",
+    "Authoritative: left horizontal bar 3.60 x 0.30m with five seats; planter 5.20 x 0.25m nominal.",
+    "Authoritative: two rear sofas 2.00 x 0.80m; armchairs 0.60 x 0.60m; low tables about 1.00m.",
+    "Authoritative: board-front run about 4.00m; operation aisle 0.80m; worktop depth 0.65m; display fridge 2.00 x 0.90m.",
+    "Provisional: pavilion clear/roof heights, exact column grid and wall thickness are inferred from the V12 master and self-made 3D sketch.",
+    "Provisional: exact X positions use the V12 visual proportions and must be adjusted after field measurement."
+  ]
+}

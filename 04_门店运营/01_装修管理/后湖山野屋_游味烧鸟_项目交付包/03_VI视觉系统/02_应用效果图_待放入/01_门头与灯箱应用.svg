@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1600" height="1000" fill="#101820"/>
+  <rect y="180" width="1600" height="660" fill="#2A201A"/>
+  <g stroke="#5F402B" stroke-width="34"><line x1="0" y1="220" x2="1600" y2="220"/><line x1="180" y1="180" x2="180" y2="840"/><line x1="780" y1="180" x2="780" y2="840"/><line x1="1420" y1="180" x2="1420" y2="840"/></g>
+  <g transform="translate(250 320)" filter="url(#glow)">
+    <g fill="none" stroke="#F1D7A1" stroke-width="7" stroke-linecap="round"><path d="M160 36 A90 90 0 1 0 180 150"/><path d="M43 125 C77 104 115 105 150 124 C167 133 181 136 194 132" stroke-width="5"/><path d="M51 147 C83 130 119 132 149 148 C165 156 179 158 191 153" stroke-width="4"/><path d="M148 50 L148 160" stroke-width="5"/></g>
+    <path d="M398 20 l11 11 -11 11 -11-11z" fill="#D89A48"/>
+    <text x="270" y="127" fill="#F1D7A1" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="72" font-weight="600" letter-spacing="10">游味烧鸟</text>
+    <text x="276" y="177" fill="#D89A48" font-family="Arial,sans-serif" font-size="20" letter-spacing="7">YOU WEI · YAKITORI</text>
+  </g>
+  <g transform="translate(1290 280)">
+    <rect width="130" height="390" rx="65" fill="#171512" stroke="#A66D3F" stroke-width="5"/>
+    <circle cx="65" cy="70" r="38" fill="none" stroke="#E9DFC9" stroke-width="3"/>
+    <text x="65" y="82" text-anchor="middle" fill="#E9DFC9" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="35">游味</text>
+    <text x="65" y="190" text-anchor="middle" fill="#E9DFC9" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="33">烧</text>
+    <text x="65" y="238" text-anchor="middle" fill="#E9DFC9" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="33">鸟</text>
+    <path d="M65 284 l10 10 -10 10 -10-10z" fill="#D89A48"/>
+    <text x="65" y="344" text-anchor="middle" fill="#D89A48" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">YOU WEI</text>
+  </g>
+  <rect y="840" width="1600" height="160" fill="#15120F"/>
+  <text x="80" y="925" fill="#E9DFC9" font-family="'Microsoft YaHei',sans-serif" font-size="28">门头：暖白发光字 2700K · 深色木底 · 暖铜收边</text>
+</svg>

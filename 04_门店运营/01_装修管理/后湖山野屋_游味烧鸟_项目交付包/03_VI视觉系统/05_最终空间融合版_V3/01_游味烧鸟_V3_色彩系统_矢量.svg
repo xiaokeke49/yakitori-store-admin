@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#F3EEE5"/>
+  <g font-family="'Microsoft YaHei','Noto Sans SC',sans-serif" fill="#181614">
+    <text x="80" y="105" font-size="52" font-weight="700">游味烧鸟 · V3 色彩系统</text>
+    <text x="82" y="152" font-size="22" letter-spacing="5" fill="#8A7764">FINAL SPACE INTEGRATION PALETTE</text>
+  </g>
+  <g font-family="'Microsoft YaHei','Noto Sans SC',sans-serif">
+    <g transform="translate(80 220)">
+      <rect width="330" height="250" rx="10" fill="#102A43"/>
+      <text x="24" y="190" font-size="30" font-weight="700" fill="#E8D8BC">后湖夜蓝</text>
+      <text x="24" y="226" font-size="21" fill="#E8D8BC">#102A43 · 夜景 / 背景</text>
+    </g>
+    <g transform="translate(450 220)">
+      <rect width="330" height="250" rx="10" fill="#181614"/>
+      <text x="24" y="190" font-size="30" font-weight="700" fill="#E8D8BC">炭火墨黑</text>
+      <text x="24" y="226" font-size="21" fill="#E8D8BC">#181614 · 标志 / 板前</text>
+    </g>
+    <g transform="translate(820 220)">
+      <rect width="330" height="250" rx="10" fill="#5A3822"/>
+      <text x="24" y="190" font-size="30" font-weight="700" fill="#E8D8BC">胡桃木褐</text>
+      <text x="24" y="226" font-size="21" fill="#E8D8BC">#5A3822 · 木作 / 包装</text>
+    </g>
+    <g transform="translate(1190 220)">
+      <rect width="330" height="250" rx="10" fill="#D28A32"/>
+      <text x="24" y="190" font-size="30" font-weight="700" fill="#181614">琥珀灯金</text>
+      <text x="24" y="226" font-size="21" fill="#181614">#D28A32 · 灯光 / 强调</text>
+    </g>
+    <g transform="translate(80 530)">
+      <rect width="330" height="250" rx="10" fill="#E8D8BC" stroke="#D2C2A8"/>
+      <text x="24" y="190" font-size="30" font-weight="700" fill="#181614">灯笼纸白</text>
+      <text x="24" y="226" font-size="21" fill="#5A3822">#E8D8BC · 菜单 / 留白</text>
+    </g>
+    <g transform="translate(450 530)">
+      <rect width="330" height="250" rx="10" fill="#344536"/>
+      <text x="24" y="190" font-size="30" font-weight="700" fill="#E8D8BC">苔植深绿</text>
+      <text x="24" y="226" font-size="21" fill="#E8D8BC">#344536 · 植物 / 户外</text>
+    </g>
+    <g transform="translate(820 530)">
+      <rect width="330" height="250" rx="10" fill="#8A7764"/>
+      <text x="24" y="190" font-size="30" font-weight="700" fill="#F3EEE5">石墙暖灰</text>
+      <text x="24" y="226" font-size="21" fill="#F3EEE5">#8A7764 · 次级文字 / 石材</text>
+    </g>
+    <g transform="translate(1190 530)">
+      <rect width="330" height="250" rx="10" fill="#9E2F25"/>
+      <text x="24" y="190" font-size="30" font-weight="700" fill="#F3EEE5">印章朱红</text>
+      <text x="24" y="226" font-size="21" fill="#F3EEE5">#9E2F25 · 印章限定色</text>
+    </g>
+    <text x="80" y="890" font-size="24" fill="#5A3822">推荐比例：炭火墨黑 30% · 灯笼纸白 28% · 胡桃木褐 20% · 后湖夜蓝 12% · 其余辅助色 10%</text>
+    <text x="80" y="934" font-size="20" fill="#8A7764">朱红仅用于印章与极少量识别点；琥珀金用于灯光氛围，不作为大面积印刷底色。</text>
+  </g>
+</svg>
