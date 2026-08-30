@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <pattern id="lake" width="420" height="180" patternUnits="userSpaceOnUse">
+      <path d="M-40 84 C45 35 130 39 215 82 C300 125 385 126 470 78" fill="none" stroke="#E9DFC9" stroke-width="5" opacity=".13"/>
+      <path d="M-10 126 C64 88 145 91 221 128 C299 166 373 162 438 128" fill="none" stroke="#354C59" stroke-width="3" opacity=".35"/>
+      <path d="M87 26 l7 7 -7 7 -7-7z" fill="#D89A48" opacity=".75"/>
+      <circle cx="318" cy="53" r="3" fill="#D89A48" opacity=".6"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="#181512"/>
+  <rect width="1600" height="1000" fill="url(#lake)"/>
+  <g transform="translate(120 125)">
+    <text x="0" y="0" fill="#E9DFC9" font-family="'Microsoft YaHei',sans-serif" font-size="42" font-weight="700">湖风纹 · 火点</text>
+    <text x="0" y="54" fill="#E9DFC9" opacity=".65" font-family="Inter,Arial,sans-serif" font-size="19" letter-spacing="5">LAKE BREEZE / EMBER PATTERN</text>
+  </g>
+  <g transform="translate(1050 660)" stroke="#E9DFC9" fill="none" stroke-linecap="round">
+    <path d="M0 90 C90 30 190 33 285 83 C335 109 382 112 425 98" stroke-width="12" opacity=".85"/>
+    <path d="M18 142 C104 94 198 99 281 141 C332 167 376 169 413 156" stroke-width="6" opacity=".62"/>
+    <path d="M323 0 L323 174" stroke-width="9"/>
+    <path d="M323 -32 l15 15 -15 15 -15-15z" fill="#D89A48" stroke="none"/>
+  </g>
+</svg>
