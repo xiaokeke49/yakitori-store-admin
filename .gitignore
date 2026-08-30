@@ -2,6 +2,16 @@
 .DS_Store
 *.swp
 
+# Local secrets and cloud credentials
+.env
+.env.*
+!.env.example
+*.local.env
+oss.env
+oss-config.json
+aliyun-oss.env
+.aliyun/
+
 # Python caches and local environments
 __pycache__/
 *.py[cod]
@@ -11,7 +21,42 @@ venv/
 # Generated/local working output
 output/
 .tmp_xhs_normalized/
+.tmp_previews/
 .skill-build/
+.oss-upload-checkpoints/
+
+# Large local applications, models, and generated manifests
+.facefusion-app/
+assets_manifest.json
+
+# Legacy local media libraries (keep on this Mac, never upload to GitHub)
+素材库/
+视频/
+角色参考素材包/
+后湖图片/
+
+# Store-private operating data; keep only the folder guide in Git
+01_人员与组织/*
+!01_人员与组织/README.md
+03_财务管理/*
+!03_财务管理/README.md
+07_私域与会员/*
+!07_私域与会员/README.md
+
+# Public-channel raw media remains local
+06_公域运营/01_原始素材/*
+!06_公域运营/01_原始素材/.gitkeep
+
+# Original renovation delivery packages remain local
+04_门店运营/01_装修管理/2026-08_项目交付包/
+
+# Archives and large design source files are local by default
+*.zip
+*.7z
+*.rar
+*.psd
+*.psb
+*.ai
 
 # Images
 *.png
