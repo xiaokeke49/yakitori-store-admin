@@ -29,6 +29,9 @@ output/
 .facefusion-app/
 assets_manifest.json
 
+# Separate Git repository; manage and push it independently
+xak-auto-video-edit/
+
 # Legacy local media libraries (keep on this Mac, never upload to GitHub)
 素材库/
 视频/
