@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#F3EEE5"/>
+  <g font-family="'Microsoft YaHei','Noto Sans SC',sans-serif" fill="#181614">
+    <text x="80" y="105" font-size="52" font-weight="700">游味烧鸟 · V3 辅助图形系统</text>
+    <text x="82" y="152" font-size="22" letter-spacing="5" fill="#8A7764">LAKE · EMBER · TIMBER · LANTERN</text>
+  </g>
+  <g fill="none" stroke="#5A3822" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(120 260)">
+      <path d="M0 75 C45 35 90 115 135 75 S225 35 270 75 S360 115 405 75"/>
+      <path d="M0 110 C45 70 90 150 135 110 S225 70 270 110 S360 150 405 110" opacity=".65"/>
+      <path d="M0 145 C45 105 90 185 135 145 S225 105 270 145 S360 185 405 145" opacity=".35"/>
+      <text x="0" y="220" stroke="none" fill="#181614" font-family="Microsoft YaHei" font-size="28">湖水涟漪</text>
+    </g>
+    <g transform="translate(650 235)">
+      <path d="M105 185 C45 125 120 90 105 20 C190 90 185 145 135 185 C120 198 115 198 105 185 Z"/>
+      <path d="M115 170 C85 135 125 115 125 78 C160 122 150 152 115 170 Z" stroke="#D28A32"/>
+      <circle cx="230" cy="80" r="8" fill="#D28A32" stroke="none"/>
+      <circle cx="270" cy="115" r="5" fill="#D28A32" stroke="none"/>
+      <circle cx="245" cy="155" r="11" fill="#D28A32" stroke="none"/>
+      <text x="0" y="245" stroke="none" fill="#181614" font-family="Microsoft YaHei" font-size="28">火焰曲线与炭火余烬</text>
+    </g>
+    <g transform="translate(1110 235)">
+      <rect x="25" y="10" width="280" height="190" rx="95"/>
+      <path d="M70 20 V190 M115 10 V200 M160 10 V200 M205 10 V200 M250 20 V190" opacity=".45"/>
+      <path d="M25 70 H305 M25 115 H305 M35 160 H295" opacity=".45"/>
+      <text x="25" y="245" stroke="none" fill="#181614" font-family="Microsoft YaHei" font-size="28">纸灯笼几何</text>
+    </g>
+  </g>
+  <g transform="translate(80 590)">
+    <rect width="1440" height="270" rx="12" fill="#181614"/>
+    <g stroke="#D28A32" stroke-width="3" opacity=".75">
+      <path d="M0 45 H1440 M0 110 H1440 M0 175 H1440 M0 240 H1440"/>
+      <path d="M70 0 V270 M210 0 V270 M350 0 V270 M490 0 V270 M630 0 V270 M770 0 V270 M910 0 V270 M1050 0 V270 M1190 0 V270 M1330 0 V270"/>
+    </g>
+    <path d="M0 220 C140 135 270 220 400 165 C530 105 650 225 800 155 C930 90 1100 215 1240 150 C1330 110 1390 130 1440 115 V270 H0 Z" fill="#102A43" opacity=".72"/>
+    <path d="M0 225 C190 205 300 250 470 218 C650 182 775 250 950 214 C1110 180 1270 235 1440 208" fill="none" stroke="#E8D8BC" stroke-width="3" opacity=".7"/>
+    <circle cx="1280" cy="75" r="24" fill="#9E2F25"/>
+    <text x="35" y="45" fill="#E8D8BC" stroke="none" font-family="Microsoft YaHei" font-size="24">屋顶木格 · 后湖远山 · 夜蓝水线 · 朱红落款</text>
+  </g>
+  <text x="80" y="930" fill="#8A7764" font-family="Microsoft YaHei" font-size="22">使用原则：单次应用最多选择两类辅助图形；线条保持轻量，避免湖纹、火焰和木格同时高强度叠加。</text>
+</svg>

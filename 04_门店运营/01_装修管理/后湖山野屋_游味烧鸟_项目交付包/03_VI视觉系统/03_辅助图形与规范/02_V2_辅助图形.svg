@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <rect width="1400" height="760" fill="#F5F0E8"/>
+  <text x="75" y="90" fill="#222220" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="42" font-weight="700">辅助图形 · 湖纹、山线与飞鸟</text>
+  <g transform="translate(100 210)" fill="none" stroke="#48616B" stroke-linecap="round">
+    <path d="M0 55 C55 25 110 25 165 55 C220 85 275 85 330 55" stroke-width="8"/>
+    <path d="M0 95 C55 65 110 65 165 95 C220 125 275 125 330 95" stroke-width="6"/>
+    <path d="M0 135 C55 105 110 105 165 135 C220 165 275 165 330 135" stroke-width="4"/>
+  </g>
+  <g transform="translate(510 230)" fill="none" stroke="#97826E" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 150 C72 92 133 46 196 108 C250 162 314 65 382 18 C435 85 493 113 560 144" stroke-width="7"/>
+    <path d="M0 167 H560" stroke-width="3"/>
+  </g>
+  <g transform="translate(210 525)" fill="none" stroke="#222220" stroke-width="8" stroke-linecap="round">
+    <path d="M0 30 Q35 -6 70 30 Q105 -6 140 30"/>
+    <path d="M300 45 Q335 9 370 45 Q405 9 440 45"/>
+    <path d="M610 20 Q638 -9 666 20 Q694 -9 722 20"/>
+    <path d="M920 42 Q946 16 972 42 Q998 16 1024 42"/>
+  </g>
+  <text x="700" y="690" text-anchor="middle" fill="#97826E" font-family="'Source Han Sans SC','Microsoft YaHei',sans-serif" font-size="24" letter-spacing="4">湖风、远山与归鸟，只作轻量点缀</text>
+</svg>

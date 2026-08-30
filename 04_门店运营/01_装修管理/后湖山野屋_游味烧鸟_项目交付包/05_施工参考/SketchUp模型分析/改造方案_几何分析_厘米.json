@@ -1,0 +1,4168 @@
+{
+  "source": "D:\\桌面\\改造方案.skp",
+  "source_units": "Centimeter",
+  "api_internal_units": "Inch",
+  "overall_bounds": {
+    "min_cm": [
+      -90.91,
+      -131.74,
+      -20.53
+    ],
+    "max_cm": [
+      1160.47,
+      444.04,
+      300.0
+    ],
+    "size_cm": [
+      1251.38,
+      575.78,
+      320.53
+    ],
+    "center_cm": [
+      534.78,
+      156.15,
+      139.74
+    ]
+  },
+  "root_counts": {
+    "faces": 371,
+    "edges": 0,
+    "groups": 0,
+    "instances": 27
+  },
+  "entity_records": [
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "Heather",
+      "instance_name": "",
+      "definition_name": "Heather",
+      "path": "Model/Heather",
+      "counts": {
+        "faces": 88,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          -69.56,
+          -64.08,
+          -2.24
+        ],
+        "max_cm": [
+          2.01,
+          -62.76,
+          162.56
+        ],
+        "size_cm": [
+          71.57,
+          1.32,
+          164.8
+        ],
+        "center_cm": [
+          -33.77,
+          -63.42,
+          80.16
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1",
+      "instance_name": "",
+      "definition_name": "立柱1",
+      "path": "Model/立柱1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          1114.0,
+          3.0,
+          0.0
+        ],
+        "max_cm": [
+          1127.0,
+          16.0,
+          220.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          220.0
+        ],
+        "center_cm": [
+          1120.5,
+          9.5,
+          110.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1",
+      "instance_name": "",
+      "definition_name": "立柱1",
+      "path": "Model/立柱1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          1087.47,
+          186.0,
+          20.0
+        ],
+        "max_cm": [
+          1100.47,
+          199.0,
+          240.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          220.0
+        ],
+        "center_cm": [
+          1093.97,
+          192.5,
+          130.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1",
+      "instance_name": "",
+      "definition_name": "立柱1",
+      "path": "Model/立柱1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          721.64,
+          3.0,
+          0.0
+        ],
+        "max_cm": [
+          734.64,
+          16.0,
+          220.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          220.0
+        ],
+        "center_cm": [
+          728.14,
+          9.5,
+          110.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1",
+      "instance_name": "",
+      "definition_name": "立柱1",
+      "path": "Model/立柱1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          721.64,
+          186.0,
+          20.0
+        ],
+        "max_cm": [
+          734.64,
+          199.0,
+          240.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          220.0
+        ],
+        "center_cm": [
+          728.14,
+          192.5,
+          130.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1",
+      "instance_name": "",
+      "definition_name": "立柱1",
+      "path": "Model/立柱1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          379.64,
+          186.0,
+          20.0
+        ],
+        "max_cm": [
+          392.64,
+          199.0,
+          240.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          220.0
+        ],
+        "center_cm": [
+          386.14,
+          192.5,
+          130.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1",
+      "instance_name": "",
+      "definition_name": "立柱1",
+      "path": "Model/立柱1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          379.64,
+          3.0,
+          0.0
+        ],
+        "max_cm": [
+          392.64,
+          16.0,
+          220.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          220.0
+        ],
+        "center_cm": [
+          386.14,
+          9.5,
+          110.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1",
+      "instance_name": "",
+      "definition_name": "立柱1",
+      "path": "Model/立柱1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          75.98,
+          3.0,
+          0.0
+        ],
+        "max_cm": [
+          88.98,
+          16.0,
+          220.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          220.0
+        ],
+        "center_cm": [
+          82.48,
+          9.5,
+          110.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1",
+      "instance_name": "",
+      "definition_name": "立柱1",
+      "path": "Model/立柱1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          46.0,
+          186.0,
+          20.0
+        ],
+        "max_cm": [
+          59.0,
+          199.0,
+          240.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          220.0
+        ],
+        "center_cm": [
+          52.5,
+          192.5,
+          130.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1#4",
+      "instance_name": "",
+      "definition_name": "立柱1#4",
+      "path": "Model/立柱1#4",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          1087.47,
+          422.0,
+          20.0
+        ],
+        "max_cm": [
+          1100.47,
+          435.0,
+          260.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          240.0
+        ],
+        "center_cm": [
+          1093.97,
+          428.5,
+          140.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1#2",
+      "instance_name": "",
+      "definition_name": "立柱1#2",
+      "path": "Model/立柱1#2",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          379.64,
+          422.0,
+          20.0
+        ],
+        "max_cm": [
+          392.64,
+          435.0,
+          260.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          240.0
+        ],
+        "center_cm": [
+          386.14,
+          428.5,
+          140.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1#3",
+      "instance_name": "",
+      "definition_name": "立柱1#3",
+      "path": "Model/立柱1#3",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          721.64,
+          422.0,
+          20.0
+        ],
+        "max_cm": [
+          734.64,
+          435.0,
+          260.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          240.0
+        ],
+        "center_cm": [
+          728.14,
+          428.5,
+          140.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "立柱1#1",
+      "instance_name": "",
+      "definition_name": "立柱1#1",
+      "path": "Model/立柱1#1",
+      "counts": {
+        "faces": 24,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          46.0,
+          422.0,
+          20.0
+        ],
+        "max_cm": [
+          59.0,
+          435.0,
+          260.0
+        ],
+        "size_cm": [
+          13.0,
+          13.0,
+          240.0
+        ],
+        "center_cm": [
+          52.5,
+          428.5,
+          140.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "横梁",
+      "instance_name": "",
+      "definition_name": "横梁",
+      "path": "Model/横梁",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          -14.0,
+          427.0,
+          250.0
+        ],
+        "max_cm": [
+          386.0,
+          430.0,
+          260.0
+        ],
+        "size_cm": [
+          400.0,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          186.0,
+          428.5,
+          255.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "横梁2",
+      "instance_name": "",
+      "definition_name": "横梁2",
+      "path": "Model/横梁2",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          -14.06,
+          8.0,
+          210.0
+        ],
+        "max_cm": [
+          385.94,
+          11.0,
+          220.0
+        ],
+        "size_cm": [
+          400.0,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          185.94,
+          9.5,
+          215.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "横梁",
+      "instance_name": "",
+      "definition_name": "横梁",
+      "path": "Model/横梁",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          -14.0,
+          427.0,
+          190.0
+        ],
+        "max_cm": [
+          386.0,
+          430.0,
+          200.0
+        ],
+        "size_cm": [
+          400.0,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          186.0,
+          428.5,
+          195.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "横梁",
+      "instance_name": "",
+      "definition_name": "横梁",
+      "path": "Model/横梁",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          -14.0,
+          427.0,
+          130.0
+        ],
+        "max_cm": [
+          386.0,
+          430.0,
+          140.0
+        ],
+        "size_cm": [
+          400.0,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          186.0,
+          428.5,
+          135.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "横梁",
+      "instance_name": "",
+      "definition_name": "横梁",
+      "path": "Model/横梁",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          -14.0,
+          427.0,
+          70.0
+        ],
+        "max_cm": [
+          386.0,
+          430.0,
+          80.0
+        ],
+        "size_cm": [
+          400.0,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          186.0,
+          428.5,
+          75.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "底座加树",
+      "instance_name": "",
+      "definition_name": "底座加树",
+      "path": "Model/底座加树",
+      "counts": {
+        "faces": 25,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          -0.01,
+          -52.01,
+          -20.0
+        ],
+        "max_cm": [
+          1160.0,
+          438.0,
+          300.0
+        ],
+        "size_cm": [
+          1160.01,
+          490.01,
+          320.0
+        ],
+        "center_cm": [
+          580.0,
+          192.99,
+          140.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "吧台",
+      "instance_name": "",
+      "definition_name": "吧台",
+      "path": "Model/吧台",
+      "counts": {
+        "faces": 37,
+        "edges": 0,
+        "groups": 0,
+        "instances": 1
+      },
+      "bounds": {
+        "min_cm": [
+          68.9,
+          -51.35,
+          -0.0
+        ],
+        "max_cm": [
+          399.96,
+          -5.48,
+          93.15
+        ],
+        "size_cm": [
+          331.06,
+          45.87,
+          93.15
+        ],
+        "center_cm": [
+          234.43,
+          -28.41,
+          46.58
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "花坛#1",
+      "instance_name": "",
+      "definition_name": "花坛#1",
+      "path": "Model/吧台/花坛#1",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          68.9,
+          -51.21,
+          90.13
+        ],
+        "max_cm": [
+          399.96,
+          -5.48,
+          93.15
+        ],
+        "size_cm": [
+          331.06,
+          45.74,
+          3.02
+        ],
+        "center_cm": [
+          234.43,
+          -28.34,
+          91.64
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "Box175",
+      "instance_name": "Box175",
+      "definition_name": "Component81",
+      "path": "Model/Box175",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          72.54,
+          -56.69,
+          30.04
+        ],
+        "max_cm": [
+          404.21,
+          -38.88,
+          89.28
+        ],
+        "size_cm": [
+          331.67,
+          17.81,
+          59.24
+        ],
+        "center_cm": [
+          238.38,
+          -47.78,
+          59.66
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "Box173",
+      "instance_name": "Box173",
+      "definition_name": "Component80",
+      "path": "Model/Box173",
+      "counts": {
+        "faces": 12,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          70.55,
+          -58.3,
+          20.23
+        ],
+        "max_cm": [
+          402.63,
+          -36.27,
+          98.49
+        ],
+        "size_cm": [
+          332.07,
+          22.03,
+          78.27
+        ],
+        "center_cm": [
+          236.59,
+          -47.29,
+          59.36
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "Box175",
+      "instance_name": "Box175",
+      "definition_name": "Component81#1",
+      "path": "Model/Box175",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          401.47,
+          -42.97,
+          30.62
+        ],
+        "max_cm": [
+          404.94,
+          3.98,
+          89.3
+        ],
+        "size_cm": [
+          3.48,
+          46.95,
+          58.68
+        ],
+        "center_cm": [
+          403.2,
+          -19.5,
+          59.96
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "Box173",
+      "instance_name": "Box173",
+      "definition_name": "Component80#1",
+      "path": "Model/Box173",
+      "counts": {
+        "faces": 12,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          398.84,
+          -43.25,
+          20.8
+        ],
+        "max_cm": [
+          406.57,
+          4.07,
+          98.51
+        ],
+        "size_cm": [
+          7.73,
+          47.32,
+          77.72
+        ],
+        "center_cm": [
+          402.71,
+          -19.59,
+          59.65
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "Box175",
+      "instance_name": "Box175",
+      "definition_name": "Component81#1",
+      "path": "Model/Box175",
+      "counts": {
+        "faces": 6,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          71.21,
+          -58.74,
+          30.09
+        ],
+        "max_cm": [
+          74.68,
+          -11.79,
+          88.77
+        ],
+        "size_cm": [
+          3.48,
+          46.95,
+          58.68
+        ],
+        "center_cm": [
+          72.95,
+          -35.27,
+          59.43
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "Box173",
+      "instance_name": "Box173",
+      "definition_name": "Component80#1",
+      "path": "Model/Box173",
+      "counts": {
+        "faces": 12,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          68.58,
+          -59.02,
+          20.26
+        ],
+        "max_cm": [
+          76.32,
+          -11.7,
+          97.98
+        ],
+        "size_cm": [
+          7.73,
+          47.32,
+          77.72
+        ],
+        "center_cm": [
+          72.45,
+          -35.36,
+          59.12
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 0,
+      "name": "KK4286",
+      "instance_name": "KK4286",
+      "definition_name": "Component96",
+      "path": "Model/KK4286",
+      "counts": {
+        "faces": 0,
+        "edges": 0,
+        "groups": 0,
+        "instances": 27
+      },
+      "bounds": {
+        "min_cm": [
+          68.31,
+          -131.74,
+          -20.53
+        ],
+        "max_cm": [
+          409.86,
+          -11.87,
+          90.37
+        ],
+        "size_cm": [
+          341.56,
+          119.86,
+          110.89
+        ],
+        "center_cm": [
+          239.09,
+          -71.81,
+          34.92
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4287",
+      "instance_name": "KK4287",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4287",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          230.78,
+          -97.14,
+          -20.53
+        ],
+        "max_cm": [
+          306.41,
+          -36.41,
+          44.52
+        ],
+        "size_cm": [
+          75.63,
+          60.73,
+          65.04
+        ],
+        "center_cm": [
+          268.59,
+          -66.78,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4288",
+      "instance_name": "KK4288",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4288",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          104.29,
+          -94.93,
+          -9.12
+        ],
+        "max_cm": [
+          153.41,
+          -60.62,
+          38.11
+        ],
+        "size_cm": [
+          49.12,
+          34.31,
+          47.23
+        ],
+        "center_cm": [
+          128.85,
+          -77.77,
+          14.49
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4289",
+      "instance_name": "KK4289",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4289",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          128.13,
+          -103.57,
+          -15.68
+        ],
+        "max_cm": [
+          197.09,
+          -48.2,
+          43.63
+        ],
+        "size_cm": [
+          68.96,
+          55.37,
+          59.3
+        ],
+        "center_cm": [
+          162.61,
+          -75.89,
+          13.98
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4290",
+      "instance_name": "KK4290",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4290",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          338.85,
+          -91.79,
+          -15.68
+        ],
+        "max_cm": [
+          407.81,
+          -36.42,
+          43.63
+        ],
+        "size_cm": [
+          68.96,
+          55.37,
+          59.3
+        ],
+        "center_cm": [
+          373.33,
+          -64.11,
+          13.98
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4291",
+      "instance_name": "KK4291",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4291",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          69.96,
+          -79.34,
+          -9.12
+        ],
+        "max_cm": [
+          119.07,
+          -45.03,
+          38.11
+        ],
+        "size_cm": [
+          49.12,
+          34.31,
+          47.23
+        ],
+        "center_cm": [
+          94.52,
+          -62.19,
+          14.49
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4292",
+      "instance_name": "KK4292",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4292",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          137.08,
+          -75.59,
+          -9.12
+        ],
+        "max_cm": [
+          186.2,
+          -41.28,
+          38.11
+        ],
+        "size_cm": [
+          49.12,
+          34.31,
+          47.23
+        ],
+        "center_cm": [
+          161.64,
+          -58.43,
+          14.49
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4293",
+      "instance_name": "KK4293",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4293",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          347.79,
+          -63.81,
+          -9.12
+        ],
+        "max_cm": [
+          396.91,
+          -29.5,
+          38.11
+        ],
+        "size_cm": [
+          49.12,
+          34.31,
+          47.23
+        ],
+        "center_cm": [
+          372.35,
+          -46.65,
+          14.49
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4294",
+      "instance_name": "KK4294",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4294",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          306.21,
+          -64.86,
+          -11.49
+        ],
+        "max_cm": [
+          360.07,
+          -27.22,
+          40.31
+        ],
+        "size_cm": [
+          53.87,
+          37.63,
+          51.8
+        ],
+        "center_cm": [
+          333.14,
+          -46.04,
+          14.41
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4295",
+      "instance_name": "KK4295",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4295",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          271.25,
+          -88.04,
+          -12.66
+        ],
+        "max_cm": [
+          328.58,
+          -42.01,
+          36.65
+        ],
+        "size_cm": [
+          57.33,
+          46.03,
+          49.3
+        ],
+        "center_cm": [
+          299.92,
+          -65.03,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4296",
+      "instance_name": "KK4296",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4296",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          99.06,
+          -106.82,
+          -15.68
+        ],
+        "max_cm": [
+          169.59,
+          -48.12,
+          43.63
+        ],
+        "size_cm": [
+          70.53,
+          58.69,
+          59.3
+        ],
+        "center_cm": [
+          134.32,
+          -77.47,
+          13.98
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4297",
+      "instance_name": "KK4297",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4297",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          309.77,
+          -95.03,
+          -15.68
+        ],
+        "max_cm": [
+          380.3,
+          -36.34,
+          43.63
+        ],
+        "size_cm": [
+          70.53,
+          58.69,
+          59.3
+        ],
+        "center_cm": [
+          345.03,
+          -65.69,
+          13.98
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4298",
+      "instance_name": "KK4298",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4298",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          271.01,
+          -96.67,
+          -20.53
+        ],
+        "max_cm": [
+          348.37,
+          -32.29,
+          44.52
+        ],
+        "size_cm": [
+          77.36,
+          64.37,
+          65.04
+        ],
+        "center_cm": [
+          309.69,
+          -64.48,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4299",
+      "instance_name": "KK4299",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4299",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          94.39,
+          -105.83,
+          -15.68
+        ],
+        "max_cm": [
+          163.35,
+          -50.46,
+          43.63
+        ],
+        "size_cm": [
+          68.96,
+          55.37,
+          59.3
+        ],
+        "center_cm": [
+          128.87,
+          -78.14,
+          13.98
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4300",
+      "instance_name": "KK4300",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4300",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          258.11,
+          -68.82,
+          -9.12
+        ],
+        "max_cm": [
+          307.22,
+          -34.51,
+          38.11
+        ],
+        "size_cm": [
+          49.12,
+          34.31,
+          47.23
+        ],
+        "center_cm": [
+          282.67,
+          -51.67,
+          14.49
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4301",
+      "instance_name": "KK4301",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4301",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          138.07,
+          -93.41,
+          -9.12
+        ],
+        "max_cm": [
+          187.19,
+          -59.1,
+          38.11
+        ],
+        "size_cm": [
+          49.12,
+          34.31,
+          47.23
+        ],
+        "center_cm": [
+          162.63,
+          -76.26,
+          14.49
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4302",
+      "instance_name": "KK4302",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4302",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          348.79,
+          -81.63,
+          -9.12
+        ],
+        "max_cm": [
+          397.9,
+          -47.32,
+          38.11
+        ],
+        "size_cm": [
+          49.12,
+          34.31,
+          47.23
+        ],
+        "center_cm": [
+          373.35,
+          -64.47,
+          14.49
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4303",
+      "instance_name": "KK4303",
+      "definition_name": "Component97",
+      "path": "Model/KK4286/KK4303",
+      "counts": {
+        "faces": 101982,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          230.27,
+          -79.78,
+          -6.94
+        ],
+        "max_cm": [
+          286.1,
+          -18.83,
+          48.27
+        ],
+        "size_cm": [
+          55.83,
+          60.96,
+          55.21
+        ],
+        "center_cm": [
+          258.19,
+          -49.31,
+          20.67
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4304",
+      "instance_name": "KK4304",
+      "definition_name": "Component98",
+      "path": "Model/KK4286/KK4304",
+      "counts": {
+        "faces": 52095,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          226.35,
+          -108.55,
+          2.58
+        ],
+        "max_cm": [
+          300.96,
+          -30.37,
+          90.37
+        ],
+        "size_cm": [
+          74.61,
+          78.18,
+          87.79
+        ],
+        "center_cm": [
+          263.65,
+          -69.46,
+          46.47
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4305",
+      "instance_name": "KK4305",
+      "definition_name": "Component92",
+      "path": "Model/KK4286/KK4305",
+      "counts": {
+        "faces": 14798,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          72.17,
+          -103.75,
+          -20.07
+        ],
+        "max_cm": [
+          405.0,
+          -30.11,
+          11.49
+        ],
+        "size_cm": [
+          332.83,
+          73.64,
+          31.56
+        ],
+        "center_cm": [
+          238.58,
+          -66.93,
+          -4.29
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4306",
+      "instance_name": "KK4306",
+      "definition_name": "Component99",
+      "path": "Model/KK4286/KK4306",
+      "counts": {
+        "faces": 15451,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          75.66,
+          -125.28,
+          2.65
+        ],
+        "max_cm": [
+          148.93,
+          -33.62,
+          85.47
+        ],
+        "size_cm": [
+          73.27,
+          91.66,
+          82.82
+        ],
+        "center_cm": [
+          112.3,
+          -79.45,
+          44.06
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4307",
+      "instance_name": "KK4307",
+      "definition_name": "Component99",
+      "path": "Model/KK4286/KK4307",
+      "counts": {
+        "faces": 15451,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          321.15,
+          -111.55,
+          2.65
+        ],
+        "max_cm": [
+          394.42,
+          -19.89,
+          85.47
+        ],
+        "size_cm": [
+          73.27,
+          91.66,
+          82.82
+        ],
+        "center_cm": [
+          357.78,
+          -65.72,
+          44.06
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4308",
+      "instance_name": "KK4308",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4308",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          207.79,
+          -103.87,
+          -15.68
+        ],
+        "max_cm": [
+          276.75,
+          -48.5,
+          43.63
+        ],
+        "size_cm": [
+          68.96,
+          55.37,
+          59.3
+        ],
+        "center_cm": [
+          242.27,
+          -76.18,
+          13.98
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4309",
+      "instance_name": "KK4309",
+      "definition_name": "Component94",
+      "path": "Model/KK4286/KK4309",
+      "counts": {
+        "faces": 4,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          81.3,
+          -94.29,
+          9.31
+        ],
+        "max_cm": [
+          396.04,
+          -39.57,
+          9.31
+        ],
+        "size_cm": [
+          314.74,
+          54.71,
+          0.0
+        ],
+        "center_cm": [
+          238.67,
+          -66.93,
+          9.31
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4310",
+      "instance_name": "KK4310",
+      "definition_name": "Component98",
+      "path": "Model/KK4286/KK4310",
+      "counts": {
+        "faces": 52095,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          163.72,
+          -124.49,
+          -15.65
+        ],
+        "max_cm": [
+          263.59,
+          -25.54,
+          70.82
+        ],
+        "size_cm": [
+          99.87,
+          98.95,
+          86.47
+        ],
+        "center_cm": [
+          213.65,
+          -75.01,
+          27.59
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4311",
+      "instance_name": "KK4311",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4311",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          166.85,
+          -72.65,
+          -11.49
+        ],
+        "max_cm": [
+          220.72,
+          -35.02,
+          40.31
+        ],
+        "size_cm": [
+          53.87,
+          37.63,
+          51.8
+        ],
+        "center_cm": [
+          193.78,
+          -53.83,
+          14.41
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4312",
+      "instance_name": "KK4312",
+      "definition_name": "Component95",
+      "path": "Model/KK4286/KK4312",
+      "counts": {
+        "faces": 6527,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          168.95,
+          -91.69,
+          -9.12
+        ],
+        "max_cm": [
+          218.07,
+          -57.37,
+          38.11
+        ],
+        "size_cm": [
+          49.12,
+          34.31,
+          47.23
+        ],
+        "center_cm": [
+          193.51,
+          -74.53,
+          14.49
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "depth": 1,
+      "name": "KK4313",
+      "instance_name": "KK4313",
+      "definition_name": "Component100",
+      "path": "Model/KK4286/KK4313",
+      "counts": {
+        "faces": 7865,
+        "edges": 0,
+        "groups": 0,
+        "instances": 0
+      },
+      "bounds": {
+        "min_cm": [
+          306.24,
+          -92.92,
+          -6.29
+        ],
+        "max_cm": [
+          366.01,
+          -43.34,
+          39.23
+        ],
+        "size_cm": [
+          59.77,
+          49.57,
+          45.52
+        ],
+        "center_cm": [
+          336.12,
+          -68.13,
+          16.47
+        ]
+      }
+    }
+  ],
+  "face_polygon_count": 384653,
+  "root_connected_components": [
+    {
+      "id": 73,
+      "bounds": {
+        "min_cm": [
+          715.1,
+          -21.48,
+          0.0
+        ],
+        "max_cm": [
+          1160.0,
+          399.95,
+          120.0
+        ],
+        "size_cm": [
+          444.9,
+          421.44,
+          120.0
+        ],
+        "center_cm": [
+          937.55,
+          189.24,
+          60.0
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "bounds": {
+        "min_cm": [
+          452.09,
+          335.21,
+          20.0
+        ],
+        "max_cm": [
+          652.99,
+          418.26,
+          80.32
+        ],
+        "size_cm": [
+          200.9,
+          83.05,
+          60.32
+        ],
+        "center_cm": [
+          552.54,
+          376.73,
+          50.16
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "bounds": {
+        "min_cm": [
+          111.06,
+          335.21,
+          20.0
+        ],
+        "max_cm": [
+          311.96,
+          418.26,
+          80.32
+        ],
+        "size_cm": [
+          200.9,
+          83.05,
+          60.32
+        ],
+        "center_cm": [
+          211.51,
+          376.73,
+          50.16
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "bounds": {
+        "min_cm": [
+          1099.16,
+          228.58,
+          20.0
+        ],
+        "max_cm": [
+          1159.16,
+          418.58,
+          100.0
+        ],
+        "size_cm": [
+          60.0,
+          190.0,
+          80.0
+        ],
+        "center_cm": [
+          1129.16,
+          323.58,
+          60.0
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "bounds": {
+        "min_cm": [
+          954.84,
+          -56.29,
+          20.3
+        ],
+        "max_cm": [
+          1154.84,
+          33.71,
+          70.3
+        ],
+        "size_cm": [
+          200.0,
+          90.0,
+          50.0
+        ],
+        "center_cm": [
+          1054.84,
+          -11.29,
+          45.3
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "bounds": {
+        "min_cm": [
+          808.35,
+          81.15,
+          19.96
+        ],
+        "max_cm": [
+          868.35,
+          141.52,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.36,
+          60.0
+        ],
+        "center_cm": [
+          838.35,
+          111.34,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "bounds": {
+        "min_cm": [
+          808.35,
+          -1.1,
+          19.96
+        ],
+        "max_cm": [
+          868.35,
+          59.26,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.36,
+          60.0
+        ],
+        "center_cm": [
+          838.35,
+          29.08,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "bounds": {
+        "min_cm": [
+          98.18,
+          9.23,
+          19.96
+        ],
+        "max_cm": [
+          158.18,
+          69.23,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "center_cm": [
+          128.18,
+          39.23,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "bounds": {
+        "min_cm": [
+          808.35,
+          157.29,
+          19.96
+        ],
+        "max_cm": [
+          868.35,
+          217.29,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "center_cm": [
+          838.35,
+          187.29,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "bounds": {
+        "min_cm": [
+          808.35,
+          228.41,
+          19.96
+        ],
+        "max_cm": [
+          868.35,
+          288.41,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "center_cm": [
+          838.35,
+          258.41,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "bounds": {
+        "min_cm": [
+          808.35,
+          305.48,
+          19.96
+        ],
+        "max_cm": [
+          868.35,
+          365.48,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "center_cm": [
+          838.35,
+          335.48,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "bounds": {
+        "min_cm": [
+          172.75,
+          9.23,
+          19.96
+        ],
+        "max_cm": [
+          232.75,
+          69.23,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "center_cm": [
+          202.75,
+          39.23,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "bounds": {
+        "min_cm": [
+          245.88,
+          9.23,
+          19.96
+        ],
+        "max_cm": [
+          305.88,
+          69.23,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "center_cm": [
+          275.88,
+          39.23,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "bounds": {
+        "min_cm": [
+          318.26,
+          9.23,
+          19.96
+        ],
+        "max_cm": [
+          378.26,
+          69.23,
+          79.96
+        ],
+        "size_cm": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "center_cm": [
+          348.26,
+          39.23,
+          49.96
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "bounds": {
+        "min_cm": [
+          -13.99,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          -10.99,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          -12.49,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "bounds": {
+        "min_cm": [
+          50.9,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          53.9,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          52.4,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "bounds": {
+        "min_cm": [
+          115.79,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          118.79,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          117.29,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "bounds": {
+        "min_cm": [
+          180.68,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          183.68,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          182.18,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "bounds": {
+        "min_cm": [
+          245.57,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          248.57,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          247.07,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "bounds": {
+        "min_cm": [
+          310.46,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          313.46,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          311.96,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "bounds": {
+        "min_cm": [
+          375.35,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          378.35,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          376.85,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "bounds": {
+        "min_cm": [
+          440.23,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          443.23,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          441.73,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "bounds": {
+        "min_cm": [
+          505.12,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          508.12,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          506.62,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "bounds": {
+        "min_cm": [
+          570.01,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          573.01,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          571.51,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "bounds": {
+        "min_cm": [
+          634.9,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          637.9,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          636.4,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "bounds": {
+        "min_cm": [
+          699.79,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          702.79,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          701.29,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "bounds": {
+        "min_cm": [
+          764.68,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          767.68,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          766.18,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "bounds": {
+        "min_cm": [
+          829.57,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          832.57,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          831.07,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "bounds": {
+        "min_cm": [
+          894.46,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          897.46,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          895.96,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "bounds": {
+        "min_cm": [
+          959.35,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          962.35,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          960.85,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "bounds": {
+        "min_cm": [
+          1024.24,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          1027.24,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          1025.74,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "bounds": {
+        "min_cm": [
+          1089.13,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          1092.13,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          1090.63,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "bounds": {
+        "min_cm": [
+          1154.02,
+          149.04,
+          236.39
+        ],
+        "max_cm": [
+          1157.02,
+          444.04,
+          269.3
+        ],
+        "size_cm": [
+          3.0,
+          295.0,
+          32.91
+        ],
+        "center_cm": [
+          1155.52,
+          296.54,
+          252.84
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "bounds": {
+        "min_cm": [
+          727.84,
+          427.0,
+          250.0
+        ],
+        "max_cm": [
+          1160.47,
+          430.0,
+          260.0
+        ],
+        "size_cm": [
+          432.63,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          944.16,
+          428.5,
+          255.0
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "bounds": {
+        "min_cm": [
+          727.78,
+          191.0,
+          230.0
+        ],
+        "max_cm": [
+          1160.41,
+          194.0,
+          240.0
+        ],
+        "size_cm": [
+          432.63,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          944.1,
+          192.5,
+          235.0
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "bounds": {
+        "min_cm": [
+          727.78,
+          8.0,
+          210.0
+        ],
+        "max_cm": [
+          1160.41,
+          11.0,
+          220.0
+        ],
+        "size_cm": [
+          432.63,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          944.1,
+          9.5,
+          215.0
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "bounds": {
+        "min_cm": [
+          727.84,
+          427.0,
+          190.0
+        ],
+        "max_cm": [
+          1160.47,
+          430.0,
+          200.0
+        ],
+        "size_cm": [
+          432.63,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          944.16,
+          428.5,
+          195.0
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "bounds": {
+        "min_cm": [
+          727.84,
+          427.0,
+          130.0
+        ],
+        "max_cm": [
+          1160.47,
+          430.0,
+          140.0
+        ],
+        "size_cm": [
+          432.63,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          944.16,
+          428.5,
+          135.0
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "bounds": {
+        "min_cm": [
+          727.84,
+          427.0,
+          70.0
+        ],
+        "max_cm": [
+          1160.47,
+          430.0,
+          80.0
+        ],
+        "size_cm": [
+          432.63,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          944.16,
+          428.5,
+          75.0
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "bounds": {
+        "min_cm": [
+          -14.0,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          -11.0,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          239.92,
+          17.96
+        ],
+        "center_cm": [
+          -12.5,
+          69.96,
+          228.98
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "bounds": {
+        "min_cm": [
+          -14.06,
+          191.0,
+          230.0
+        ],
+        "max_cm": [
+          385.94,
+          194.0,
+          240.0
+        ],
+        "size_cm": [
+          400.0,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          185.94,
+          192.5,
+          235.0
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "bounds": {
+        "min_cm": [
+          386.01,
+          427.0,
+          250.0
+        ],
+        "max_cm": [
+          727.78,
+          430.0,
+          260.0
+        ],
+        "size_cm": [
+          341.77,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          556.9,
+          428.5,
+          255.0
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "bounds": {
+        "min_cm": [
+          385.95,
+          191.0,
+          230.0
+        ],
+        "max_cm": [
+          727.72,
+          194.0,
+          240.0
+        ],
+        "size_cm": [
+          341.77,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          556.84,
+          192.5,
+          235.0
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "bounds": {
+        "min_cm": [
+          385.95,
+          8.0,
+          210.0
+        ],
+        "max_cm": [
+          727.72,
+          11.0,
+          220.0
+        ],
+        "size_cm": [
+          341.77,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          556.84,
+          9.5,
+          215.0
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "bounds": {
+        "min_cm": [
+          386.01,
+          427.0,
+          190.0
+        ],
+        "max_cm": [
+          727.78,
+          430.0,
+          200.0
+        ],
+        "size_cm": [
+          341.77,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          556.9,
+          428.5,
+          195.0
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "bounds": {
+        "min_cm": [
+          386.01,
+          427.0,
+          130.0
+        ],
+        "max_cm": [
+          727.78,
+          430.0,
+          140.0
+        ],
+        "size_cm": [
+          341.77,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          556.9,
+          428.5,
+          135.0
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "bounds": {
+        "min_cm": [
+          386.01,
+          427.0,
+          70.0
+        ],
+        "max_cm": [
+          727.78,
+          430.0,
+          80.0
+        ],
+        "size_cm": [
+          341.77,
+          3.0,
+          10.0
+        ],
+        "center_cm": [
+          556.9,
+          428.5,
+          75.0
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "bounds": {
+        "min_cm": [
+          72.98,
+          -77.0,
+          19.98
+        ],
+        "max_cm": [
+          74.18,
+          -52.02,
+          20.0
+        ],
+        "size_cm": [
+          1.19,
+          24.97,
+          0.02
+        ],
+        "center_cm": [
+          73.58,
+          -64.51,
+          19.99
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "bounds": {
+        "min_cm": [
+          50.89,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          53.89,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          52.39,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "bounds": {
+        "min_cm": [
+          50.89,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          53.89,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          52.39,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "bounds": {
+        "min_cm": [
+          115.78,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          118.78,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          117.28,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "bounds": {
+        "min_cm": [
+          115.78,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          118.78,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          117.28,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "bounds": {
+        "min_cm": [
+          180.67,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          183.67,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          182.17,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "bounds": {
+        "min_cm": [
+          180.67,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          183.67,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          182.17,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "bounds": {
+        "min_cm": [
+          245.56,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          248.56,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          247.06,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "bounds": {
+        "min_cm": [
+          245.56,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          248.56,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          247.06,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "bounds": {
+        "min_cm": [
+          310.44,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          313.44,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          311.94,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "bounds": {
+        "min_cm": [
+          310.44,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          313.44,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          311.94,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "bounds": {
+        "min_cm": [
+          375.33,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          378.33,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          376.83,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "bounds": {
+        "min_cm": [
+          375.33,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          378.33,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          376.83,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "bounds": {
+        "min_cm": [
+          440.22,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          443.22,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          441.72,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "bounds": {
+        "min_cm": [
+          440.22,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          443.22,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          441.72,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "bounds": {
+        "min_cm": [
+          505.11,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          508.11,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          506.61,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "bounds": {
+        "min_cm": [
+          505.11,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          508.11,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          506.61,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "bounds": {
+        "min_cm": [
+          570.0,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          573.0,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          571.5,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "bounds": {
+        "min_cm": [
+          570.0,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          573.0,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          571.5,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "bounds": {
+        "min_cm": [
+          634.89,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          637.89,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          636.39,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "bounds": {
+        "min_cm": [
+          634.89,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          637.89,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          636.39,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "bounds": {
+        "min_cm": [
+          699.78,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          702.78,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          701.28,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "bounds": {
+        "min_cm": [
+          699.78,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          702.78,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          701.28,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "bounds": {
+        "min_cm": [
+          764.67,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          767.67,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          766.17,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "bounds": {
+        "min_cm": [
+          764.67,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          767.67,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          766.17,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "bounds": {
+        "min_cm": [
+          829.56,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          832.56,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          831.06,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "bounds": {
+        "min_cm": [
+          829.56,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          832.56,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          831.06,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "bounds": {
+        "min_cm": [
+          894.45,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          897.45,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          895.95,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "bounds": {
+        "min_cm": [
+          894.45,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          897.45,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          895.95,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "bounds": {
+        "min_cm": [
+          959.34,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          962.34,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          960.84,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "bounds": {
+        "min_cm": [
+          959.34,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          962.34,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          960.84,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "bounds": {
+        "min_cm": [
+          1024.23,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          1027.23,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          1025.73,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "bounds": {
+        "min_cm": [
+          1024.23,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          1027.23,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          1025.73,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "bounds": {
+        "min_cm": [
+          1089.12,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          1092.12,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          1090.62,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "bounds": {
+        "min_cm": [
+          1089.12,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          1092.12,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          1090.62,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "bounds": {
+        "min_cm": [
+          1154.01,
+          189.92,
+          229.96
+        ],
+        "max_cm": [
+          1157.01,
+          189.92,
+          237.96
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          1155.51,
+          189.92,
+          233.96
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "bounds": {
+        "min_cm": [
+          1154.01,
+          -50.0,
+          220.0
+        ],
+        "max_cm": [
+          1157.01,
+          -50.0,
+          228.0
+        ],
+        "size_cm": [
+          3.0,
+          0.0,
+          8.0
+        ],
+        "center_cm": [
+          1155.51,
+          -50.0,
+          224.0
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "bounds": {
+        "min_cm": [
+          77.77,
+          3.0,
+          216.48
+        ],
+        "max_cm": [
+          79.17,
+          3.0,
+          217.88
+        ],
+        "size_cm": [
+          1.4,
+          0.0,
+          1.4
+        ],
+        "center_cm": [
+          78.47,
+          3.0,
+          217.18
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "bounds": {
+        "min_cm": [
+          77.77,
+          3.0,
+          212.48
+        ],
+        "max_cm": [
+          79.17,
+          3.0,
+          213.88
+        ],
+        "size_cm": [
+          1.4,
+          0.0,
+          1.4
+        ],
+        "center_cm": [
+          78.47,
+          3.0,
+          213.18
+        ]
+      }
+    }
+  ]
+}
