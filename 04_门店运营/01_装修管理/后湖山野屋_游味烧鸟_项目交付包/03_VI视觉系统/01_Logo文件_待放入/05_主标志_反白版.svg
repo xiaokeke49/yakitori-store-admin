@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <rect width="1200" height="360" fill="#181512"/>
+  <g transform="translate(85 56)" fill="none" stroke="#E9DFC9" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M197 45 A112 112 0 1 0 219 190"/>
+    <path d="M52 155 C88 132 136 132 180 154 C199 164 216 168 233 164" stroke-width="7"/>
+    <path d="M61 181 C99 160 142 162 178 181 C197 191 214 194 229 190" stroke-width="5"/>
+    <path d="M177 64 L177 202" stroke-width="7"/>
+  </g>
+  <path d="M262 46 l13 13 -13 13 -13-13z" fill="#D89A48"/>
+  <line x1="382" y1="68" x2="382" y2="292" stroke="#A66D3F" stroke-width="2"/>
+  <text x="432" y="184" fill="#E9DFC9" font-family="'Source Han Serif SC','Noto Serif CJK SC','Songti SC',serif" font-size="88" font-weight="600" letter-spacing="10">游味烧鸟</text>
+  <text x="438" y="245" fill="#D89A48" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="600" letter-spacing="8">YOU WEI · YAKITORI</text>
+  <text x="438" y="287" fill="#E9DFC9" opacity=".72" font-family="'Source Han Sans SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" letter-spacing="5">游于后湖，味在人间</text>
+</svg>

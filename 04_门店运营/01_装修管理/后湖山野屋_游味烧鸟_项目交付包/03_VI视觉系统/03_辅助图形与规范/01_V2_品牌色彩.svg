@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <rect width="1400" height="760" fill="#F5F0E8"/>
+  <text x="75" y="90" fill="#222220" font-family="'Source Han Serif SC','Microsoft YaHei',serif" font-size="42" font-weight="700">游味烧鸟 · 品牌色彩</text>
+  <text x="78" y="130" fill="#97826E" font-family="Montserrat,Arial,sans-serif" font-size="17" letter-spacing="5">COLOR SYSTEM · EXTRACTED FROM REFERENCE</text>
+  <g transform="translate(75 200)" font-family="'Source Han Sans SC','Microsoft YaHei',sans-serif">
+    <g><circle cx="85" cy="85" r="72" fill="#48616B"/><text x="85" y="190" text-anchor="middle" fill="#222220" font-size="24" font-weight="700">湖水青</text><text x="85" y="224" text-anchor="middle" fill="#97826E" font-size="18">#48616B</text></g>
+    <g transform="translate(315)"><circle cx="85" cy="85" r="72" fill="#CDC3BA"/><text x="85" y="190" text-anchor="middle" fill="#222220" font-size="24" font-weight="700">暖肌纸</text><text x="85" y="224" text-anchor="middle" fill="#97826E" font-size="18">#CDC3BA</text></g>
+    <g transform="translate(630)"><circle cx="85" cy="85" r="72" fill="#606042"/><text x="85" y="190" text-anchor="middle" fill="#222220" font-size="24" font-weight="700">竹苔绿</text><text x="85" y="224" text-anchor="middle" fill="#97826E" font-size="18">#606042</text></g>
+    <g transform="translate(945)"><circle cx="85" cy="85" r="72" fill="#222220"/><text x="85" y="190" text-anchor="middle" fill="#222220" font-size="24" font-weight="700">炭火黑</text><text x="85" y="224" text-anchor="middle" fill="#97826E" font-size="18">#222220</text></g>
+    <g transform="translate(0 300)"><circle cx="85" cy="85" r="72" fill="#5D442F"/><text x="85" y="190" text-anchor="middle" fill="#222220" font-size="24" font-weight="700">木原褐</text><text x="85" y="224" text-anchor="middle" fill="#97826E" font-size="18">#5D442F</text></g>
+    <g transform="translate(315 300)"><circle cx="85" cy="85" r="72" fill="#DD8245"/><text x="85" y="190" text-anchor="middle" fill="#222220" font-size="24" font-weight="700">暖阳橙</text><text x="85" y="224" text-anchor="middle" fill="#97826E" font-size="18">#DD8245</text></g>
+    <g transform="translate(630 300)"><circle cx="85" cy="85" r="72" fill="#D7CABC"/><text x="85" y="190" text-anchor="middle" fill="#222220" font-size="24" font-weight="700">茶白</text><text x="85" y="224" text-anchor="middle" fill="#97826E" font-size="18">#D7CABC</text></g>
+    <g transform="translate(945 300)"><circle cx="85" cy="85" r="72" fill="#97826E"/><text x="85" y="190" text-anchor="middle" fill="#222220" font-size="24" font-weight="700">城市棕</text><text x="85" y="224" text-anchor="middle" fill="#97826E" font-size="18">#97826E</text></g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#F4EFE4"/>
+  <text x="90" y="100" fill="#181512" font-family="'Microsoft YaHei',sans-serif" font-size="45" font-weight="700">色彩与字体规范</text>
+  <text x="90" y="146" fill="#805638" font-family="Inter,Arial,sans-serif" font-size="18" letter-spacing="6">COLOR &amp; TYPOGRAPHY</text>
+  <g transform="translate(90 220)" font-family="'Microsoft YaHei',sans-serif">
+    <g transform="translate(0 0)"><rect width="310" height="230" rx="10" fill="#181512"/><text x="25" y="165" fill="#E9DFC9" font-size="26" font-weight="700">炭夜黑</text><text x="25" y="202" fill="#E9DFC9" opacity=".7" font-size="19">#181512</text></g>
+    <g transform="translate(330 0)"><rect width="310" height="230" rx="10" fill="#E9DFC9" stroke="#CBBFA9"/><text x="25" y="165" fill="#181512" font-size="26" font-weight="700">宣纸米</text><text x="25" y="202" fill="#805638" font-size="19">#E9DFC9</text></g>
+    <g transform="translate(660 0)"><rect width="310" height="230" rx="10" fill="#D89A48"/><text x="25" y="165" fill="#181512" font-size="26" font-weight="700">灯火金</text><text x="25" y="202" fill="#181512" opacity=".7" font-size="19">#D89A48</text></g>
+    <g transform="translate(990 0)"><rect width="310" height="230" rx="10" fill="#805638"/><text x="25" y="165" fill="#E9DFC9" font-size="26" font-weight="700">木屋褐</text><text x="25" y="202" fill="#E9DFC9" opacity=".75" font-size="19">#805638</text></g>
+    <g transform="translate(0 250)"><rect width="310" height="150" rx="10" fill="#354C59"/><text x="25" y="92" fill="#E9DFC9" font-size="25" font-weight="700">后湖蓝</text><text x="25" y="124" fill="#E9DFC9" opacity=".75" font-size="18">#354C59</text></g>
+    <g transform="translate(330 250)"><rect width="310" height="150" rx="10" fill="#35453A"/><text x="25" y="92" fill="#E9DFC9" font-size="25" font-weight="700">苔岸绿</text><text x="25" y="124" fill="#E9DFC9" opacity=".75" font-size="18">#35453A</text></g>
+    <g transform="translate(660 250)"><rect width="310" height="150" rx="10" fill="#A66D3F"/><text x="25" y="92" fill="#E9DFC9" font-size="25" font-weight="700">暖铜色</text><text x="25" y="124" fill="#E9DFC9" opacity=".75" font-size="18">#A66D3F</text></g>
+  </g>
+  <line x1="90" y1="690" x2="1510" y2="690" stroke="#CBBFA9"/>
+  <text x="90" y="770" fill="#181512" font-family="'Source Han Serif SC','Noto Serif CJK SC','Songti SC',serif" font-size="58" font-weight="600">后湖有风，炭火有味</text>
+  <text x="95" y="817" fill="#805638" font-family="'Microsoft YaHei',sans-serif" font-size="20">中文标题：思源宋体 SemiBold</text>
+  <text x="90" y="900" fill="#181512" font-family="'Source Han Sans SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="31">傍晚之后，木屋的灯火慢慢亮起。坐下来，吃一串烧鸟。</text>
+  <text x="95" y="942" fill="#805638" font-family="'Microsoft YaHei',sans-serif" font-size="20">中文正文：思源黑体 Regular / Medium</text>
+  <text x="90" y="1025" fill="#354C59" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="600" letter-spacing="8">YOU WEI · YAKITORI</text>
+  <text x="640" y="1025" fill="#805638" font-family="Inter,Arial,sans-serif" font-size="19">Inter SemiBold · Tracking 0.12em</text>
+</svg>
