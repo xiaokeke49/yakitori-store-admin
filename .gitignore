@@ -38,9 +38,7 @@ xak-auto-video-edit/
 角色参考素材包/
 后湖图片/
 
-# Store-private operating data; keep only the folder guide in Git
-01_人员与组织/*
-!01_人员与组织/README.md
+# Store-private operating data; personnel files are allowed in this private repository
 03_财务管理/*
 !03_财务管理/README.md
 07_私域与会员/*
