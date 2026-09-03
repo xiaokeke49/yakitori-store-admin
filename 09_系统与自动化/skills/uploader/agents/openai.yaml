@@ -1,0 +1,4 @@
+interface:
+  display_name: "Uploader"
+  short_description: "按拍摄批次上传素材，并安全增量拉取最新照片与视频"
+  default_prompt: "Use $uploader to identify, classify, and upload media from this directory, or pull the latest classified assets."
