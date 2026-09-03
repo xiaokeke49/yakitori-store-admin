@@ -44,10 +44,6 @@ xak-auto-video-edit/
 07_私域与会员/*
 !07_私域与会员/README.md
 
-# Public-channel raw media remains local
-06_公域运营/01_原始素材/*
-!06_公域运营/01_原始素材/.gitkeep
-
 # Original renovation delivery packages remain local
 04_门店运营/01_装修管理/2026-08_项目交付包/
 
