@@ -41,6 +41,9 @@ xak-auto-video-edit/
 # Store-private operating data; personnel files are allowed in this private repository
 03_财务管理/*
 !03_财务管理/README.md
+!03_财务管理/财务账本.sqlite3
+!03_财务管理/每日财务总览.md
+!03_财务管理/01_装修预算与采购/
 07_私域与会员/*
 !07_私域与会员/README.md
 
