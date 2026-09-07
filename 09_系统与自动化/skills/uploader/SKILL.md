@@ -1,11 +1,26 @@
 ---
 name: uploader
-description: Manage the yakitori shop's Aliyun OSS media library from a user-supplied directory. Use to identify already-uploaded versus new media by content, visually classify only new files, upload idempotently, or pull classified batches. Do not use for publishing or deleting remote assets.
+description: Manage and inspect the yakitori shop's Aliyun OSS media library. Use to see inventory and category statistics, search remote assets, identify already-uploaded versus new media from a supplied directory, visually classify new files, upload idempotently, or pull classified batches. Do not use for publishing or deleting remote assets.
 ---
 
 # Uploader（OSS 素材库）
 
 接收用户给出的任意素材目录。目录可以全部已上传、部分已上传或全部未上传。始终用文件内容 SHA-256 与 OSS 索引对比，不用文件名、本地路径、日期或单机状态判断是否上传过。
+
+用户需要整体使用方法时，读 [使用说明.md](使用说明.md)。
+
+## 查看素材库
+
+用户问“素材库有什么”、“各分类有多少”、“某类素材有哪些”或“帮我找某个素材”时，运行只读 `inventory`。不需要扫描本地目录，不下载原文件。
+
+```bash
+python3 scripts/oss_materials.py inventory
+python3 scripts/oss_materials.py inventory --category "烧烤食材展示"
+python3 scripts/oss_materials.py inventory --search "湖边"
+python3 scripts/oss_materials.py inventory --json
+```
+
+默认回答应包含：唯一素材数、总大小、批次数和各分类数量。按分类或关键词查询时，再列出文件名和大小。查看操作不得写入、删除或下载 OSS 对象。
 
 ## 处理用户给的目录
 

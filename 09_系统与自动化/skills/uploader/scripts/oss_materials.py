@@ -35,6 +35,38 @@ CATEGORY_HINTS = {
 }
 
 
+def load_project_env() -> Path | None:
+    """Load the nearest project .env without overriding exported variables."""
+    candidates = []
+    for start in (Path.cwd().resolve(), Path(__file__).resolve().parent):
+        for directory in (start, *start.parents):
+            if directory not in candidates:
+                candidates.append(directory)
+    env_path = next(
+        (directory / ".env" for directory in candidates if (directory / ".git").exists() and (directory / ".env").is_file()),
+        None,
+    )
+    if env_path is None:
+        return None
+    for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.startswith("export "):
+            line = line[7:].lstrip()
+        if "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", key):
+            continue
+        value = value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+            value = value[1:-1]
+        os.environ.setdefault(key, value)
+    return env_path
+
+
 def required_env(name: str) -> str:
     value = os.environ.get(name)
     if not value:
@@ -229,6 +261,83 @@ def remote_batches(bucket) -> list[tuple[str, dict]]:
     return sorted(found, key=lambda item: (item[1].get("created_at", ""), item[1].get("batch_id", "")))
 
 
+def remote_catalogs(bucket) -> list[dict]:
+    found = []
+    for item in oss2.ObjectIterator(bucket, prefix=f"{prefix()}/catalog/"):
+        if item.key.endswith(".json"):
+            found.append(json.loads(bucket.get_object(item.key).read().decode("utf-8")))
+    return sorted(found, key=lambda item: (item.get("category", ""), item.get("first_seen_name", "")))
+
+
+def inventory(args) -> int:
+    bucket = bucket_from_env()
+    catalogs = remote_catalogs(bucket)
+    batches = remote_batches(bucket)
+    appearances = {}
+    for _, batch in batches:
+        for asset in batch.get("assets", []):
+            appearances.setdefault(asset["sha256"], {
+                "relative_path": asset.get("relative_path") or asset.get("original_name"),
+                "topic": batch.get("topic"),
+                "shoot_date": batch.get("shoot_date"),
+            })
+
+    category_counts = {
+        category: {
+            "files": sum(item.get("category") == category for item in catalogs),
+            "bytes": sum(int(item.get("size", 0)) for item in catalogs if item.get("category") == category),
+        }
+        for category in CATEGORIES
+    }
+    selected = catalogs
+    if args.category:
+        selected = [item for item in selected if item.get("category") == args.category]
+    if args.search:
+        needle = args.search.casefold()
+        selected = [item for item in selected if needle in (
+            str(item.get("first_seen_name", "")) + " "
+            + str(appearances.get(item.get("sha256"), {}).get("relative_path", "")) + " "
+            + str(item.get("category", ""))
+        ).casefold()]
+
+    result = {
+        "unique_files": len(catalogs),
+        "total_bytes": sum(int(item.get("size", 0)) for item in catalogs),
+        "batches": len(batches),
+        "categories": category_counts,
+        "matched": [],
+    }
+    for item in selected[:args.limit if args.limit else None]:
+        occurrence = appearances.get(item.get("sha256"), {})
+        result["matched"].append({
+            "name": item.get("first_seen_name"),
+            "category": item.get("category"),
+            "size": int(item.get("size", 0)),
+            "sha256": item.get("sha256"),
+            "relative_path": occurrence.get("relative_path"),
+            "topic": occurrence.get("topic"),
+            "shoot_date": occurrence.get("shoot_date"),
+        })
+
+    if args.json:
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        return 0
+    print(f"OSS 素材库：{result['unique_files']} 个唯一素材 / {human_size(result['total_bytes'])} / {result['batches']} 个批次")
+    print("分类：")
+    for category, summary in category_counts.items():
+        if summary["files"]:
+            print(f"  {category}: {summary['files']} 个 / {human_size(summary['bytes'])}")
+    if args.category or args.search:
+        print(f"匹配：{len(selected)} 个")
+        for item in result["matched"]:
+            print(f"  [{item['category']}] {item['name']}  {human_size(item['size'])}")
+            if item["relative_path"]:
+                print(f"    {item['relative_path']}")
+        if args.limit and len(selected) > args.limit:
+            print(f"  ... 还有 {len(selected) - args.limit} 个，可提高 --limit")
+    return 0
+
+
 def list_batches(args) -> int:
     found = remote_batches(bucket_from_env())
     selected = found[-args.limit:] if args.limit else found
@@ -293,6 +402,12 @@ def make_parser() -> argparse.ArgumentParser:
     list_cmd = commands.add_parser("list", help="List uploaded directory batches.")
     list_cmd.add_argument("--limit", type=int, default=20)
     list_cmd.set_defaults(handler=list_batches)
+    inventory_cmd = commands.add_parser("inventory", help="Show a read-only inventory of the OSS media library.")
+    inventory_cmd.add_argument("--category", choices=CATEGORIES)
+    inventory_cmd.add_argument("--search")
+    inventory_cmd.add_argument("--limit", type=int, default=50)
+    inventory_cmd.add_argument("--json", action="store_true")
+    inventory_cmd.set_defaults(handler=inventory)
     pull_cmd = commands.add_parser("pull", help="Download unseen batches into classified folders.")
     pull_cmd.add_argument("--destination", default="output/OSS素材库/已同步素材")
     pull_cmd.add_argument("--all", action="store_true")
@@ -301,6 +416,7 @@ def make_parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
+    load_project_env()
     args = make_parser().parse_args()
     return args.handler(args)
 
