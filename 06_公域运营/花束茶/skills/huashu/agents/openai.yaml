@@ -1,0 +1,7 @@
+interface:
+  display_name: "游味烧鸟花束"
+  short_description: "基于真实串品素材生成高真实度花束图片与双平台发布包"
+  default_prompt: "使用 $huashu 基于我的真实串品、包装和背景素材设计一款高真实度烧鸟花束，并输出小红书与抖音版本。"
+
+policy:
+  allow_implicit_invocation: true
