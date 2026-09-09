@@ -23,15 +23,21 @@ MEDIA_EXTENSIONS = {
 }
 CATEGORIES = (
     "店内环境宣传", "后湖湖边茶饮", "后湖落日湖景", "烧烤成品特写",
-    "烧烤烤制过程", "烧烤食材展示", "其他待判断",
+    "烧烤烤制过程", "烧烤食材展示", "冰箱展示", "晚霞",
+    "烧鸟烤串", "卖花素材", "生串", "其他待判断",
 )
 CATEGORY_HINTS = {
     "店内环境宣传": ("店内", "门店", "室内", "环境", "装修"),
     "后湖湖边茶饮": ("茶饮", "花束茶", "水果茶", "气泡水", "鸡尾酒"),
-    "后湖落日湖景": ("落日", "日落", "晚霞", "湖景", "后湖"),
+    "后湖落日湖景": ("落日", "日落", "湖景", "后湖"),
     "烧烤成品特写": ("成品", "特写", "烧鸟花", "烧鸟花束"),
-    "烧烤烤制过程": ("烤制", "炭火", "烤串", "撤料"),
+    "烧烤烤制过程": ("烤制", "炭火", "撒料"),
     "烧烤食材展示": ("食材", "生鲜", "串制", "备料"),
+    "冰箱展示": ("冰箱展示", "展示冰箱", "展示柜", "冷藏柜"),
+    "晚霞": ("晚霞", "霞光", "彩霞"),
+    "烧鸟烤串": ("烧鸟烤串", "烤串", "熟串", "串串成品"),
+    "卖花素材": ("卖花素材", "卖花", "花童", "街头送花"),
+    "生串": ("生串", "未烤串", "待烤串", "现串"),
 }
 
 
@@ -214,17 +220,18 @@ def upload(args) -> int:
         return 0
     bucket = bucket_from_env()
     uploaded = reused = 0
-    for item in plan["files"]:
+    for index, item in enumerate(plan["files"], 1):
         digest = item["sha256"]
         remote_catalog = get_json(bucket, catalog_key(digest))
         if remote_catalog:
             if remote_catalog.get("category") != item["category"]:
                 raise SystemExit(f"Remote category conflict for {digest}: {remote_catalog.get('category')}")
             reused += 1
+            print(f"[{index}/{len(plan['files'])}] REUSED {item['original_name']}", flush=True)
             continue
         local = Path(item["local_path"])
         if not bucket.object_exists(object_key(digest)):
-            oss2.resumable_upload(bucket, object_key(digest), str(local), headers={
+            oss2.resumable_upload(bucket, object_key(digest), str(local), num_threads=4, headers={
                 "Content-Type": item["content_type"], "x-oss-meta-sha256": digest,
                 "x-oss-forbid-overwrite": "true",
             })
@@ -238,6 +245,7 @@ def upload(args) -> int:
             headers={"x-oss-forbid-overwrite": "true"},
         )
         uploaded += 1
+        print(f"[{index}/{len(plan['files'])}] UPLOADED {item['original_name']}", flush=True)
     manifest = {
         "schema_version": 1, "batch_id": plan["batch_id"], "topic": plan["topic"],
         "shoot_date": plan.get("shoot_date"), "source_name": Path(plan["source_directory"]).name,
