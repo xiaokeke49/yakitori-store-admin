@@ -24,9 +24,11 @@ MEDIA_EXTENSIONS = {
 CATEGORIES = (
     "店内环境宣传", "后湖湖边茶饮", "后湖落日湖景", "烧烤成品特写",
     "烧烤烤制过程", "烧烤食材展示", "冰箱展示", "晚霞",
-    "烧鸟烤串", "卖花素材", "生串", "其他待判断",
+    "烧鸟烤串", "卖花素材", "生串", "Live图", "同行参考", "其他待判断",
 )
 CATEGORY_HINTS = {
+    "Live图": ("Live图",),
+    "同行参考": ("同行参考", "竞品参考", "对标账号"),
     "店内环境宣传": ("店内", "门店", "室内", "环境", "装修"),
     "后湖湖边茶饮": ("茶饮", "花束茶", "水果茶", "气泡水", "鸡尾酒"),
     "后湖落日湖景": ("落日", "日落", "湖景", "后湖"),
@@ -128,6 +130,8 @@ def human_size(size: int) -> str:
 
 
 def suggested_category(path: Path) -> str:
+    if 'Live图' in path.parts:
+        return 'Live图'  # 包装类型优先于原菜品关键词；新素材仍需审核。
     text = str(path).lower()
     matches = [category for category, hints in CATEGORY_HINTS.items() if any(hint.lower() in text for hint in hints)]
     return matches[0] if len(matches) == 1 else "其他待判断"

@@ -85,3 +85,6 @@ xak-auto-video-edit/
 *.m4a
 *.aac
 *.flac
+
+# Root material library remains local; no generated research index.
+素材库/
