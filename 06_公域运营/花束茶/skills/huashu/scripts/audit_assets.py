@@ -11,8 +11,8 @@ from pathlib import Path
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".heic", ".tif", ".tiff"}
 
 ALIASES = {
-    "raw_originals": ["素材库/串品/生串/原图", "生串"],
-    "raw_cutouts": ["素材库/串品/生串/透明", "生串/透明抠图"],
+    "raw_originals": ["素材库/串品/生串/原图", "生串 A", "生串"],
+    "raw_cutouts": ["素材库/串品/生串/透明", "生串 A/透明抠图_高保真", "生串/透明抠图"],
     "cooked_originals": ["素材库/串品/熟串/原图", "烧鸟烤串", "熟串"],
     "cooked_cutouts": ["素材库/串品/熟串/透明", "烧鸟烤串/透明抠图", "熟串/透明抠图"],
     "packaging": ["素材库/包装材料", "花束材料清单"],
@@ -31,9 +31,13 @@ def image_files(directory: Path, exclude_nested_cutouts: bool = False) -> list[P
         if not path.is_file() or path.suffix.lower() not in IMAGE_SUFFIXES:
             continue
         lowered_name = path.name.lower()
-        if "联系表" in path.name or "contact_sheet" in lowered_name:
+        if (
+            "联系表" in path.name
+            or "contact_sheet" in lowered_name
+            or lowered_name.startswith("00_qa_")
+        ):
             continue
-        if exclude_nested_cutouts and "透明抠图" in path.parts:
+        if exclude_nested_cutouts and any(part.startswith("透明抠图") for part in path.parts):
             continue
         result.append(path)
     return sorted(result)
@@ -43,7 +47,7 @@ def first_existing(root: Path, aliases: list[str]) -> tuple[Path | None, list[Pa
     for relative in aliases:
         candidate = root / relative
         if candidate.is_dir():
-            exclude = relative in {"生串", "烧鸟烤串", "熟串"}
+            exclude = relative in {"生串", "生串 A", "烧鸟烤串", "熟串"}
             return candidate, image_files(candidate, exclude_nested_cutouts=exclude)
     return None, []
 
