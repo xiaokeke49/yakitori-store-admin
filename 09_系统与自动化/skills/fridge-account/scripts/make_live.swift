@@ -84,6 +84,8 @@ writer.finishWriting { done.signal() }
 done.wait()
 precondition(writer.status == .completed,writer.error?.localizedDescription ?? "write failed")
 let asset = AVURLAsset(url:mov)
+let liveAudioTrackCount = asset.tracks(withMediaType:.audio).count
+precondition(liveAudioTrackCount == 0, "Live MOV must not contain an audio track")
 let props=CGImageSourceCopyPropertiesAtIndex(CGImageSourceCreateWithURL(jpg as CFURL,nil)!,0,nil)! as NSDictionary
 let photoID = (props[kCGImagePropertyMakerAppleDictionary] as? NSDictionary)?["17"] as? String
 let videoID = asset.metadata.first(where:{$0.identifier == .quickTimeMetadataContentIdentifier})?.stringValue
@@ -98,13 +100,16 @@ while let sample = metaOut.copyNextSampleBuffer() {
  if let group=AVTimedMetadataGroup(sampleBuffer:sample), !group.items.isEmpty { stillMarkerTime=group.timeRange.start.seconds }
 }
 precondition(stillMarkerTime != nil && abs(stillMarkerTime!-1.5)<0.001,"Timed metadata marker missing")
+let previewURL=folder.appendingPathComponent("推近效果预览.mp4")
 let export=AVAssetExportSession(asset:asset,presetName:AVAssetExportPresetHighestQuality)!
-export.outputURL=folder.appendingPathComponent("推近效果预览.mp4")
+export.outputURL=previewURL
 export.outputFileType = .mp4
 let exported=DispatchSemaphore(value:0)
 export.exportAsynchronously { exported.signal() };exported.wait()
 precondition(export.status == .completed)
-var result:[String:Any] = ["asset_identifier":identifier,"duration_seconds":asset.duration.seconds,"width":width,"height":height,"frames":frameCount,"zoom":"1.02 to 1.11 in 1.05 seconds, then settle; subtle handheld translation","key_photo_seconds":1.5,"pair_metadata_valid":true,"source":source.path,"xiaohongshu_verified":false]
+let previewAudioTrackCount = AVURLAsset(url:previewURL).tracks(withMediaType:.audio).count
+precondition(previewAudioTrackCount == 0, "Preview MP4 must not contain an audio track")
+var result:[String:Any] = ["asset_identifier":identifier,"duration_seconds":asset.duration.seconds,"width":width,"height":height,"frames":frameCount,"zoom":"1.02 to 1.11 in 1.05 seconds, then settle; subtle handheld translation","key_photo_seconds":1.5,"pair_metadata_valid":true,"live_audio_tracks":liveAudioTrackCount,"preview_audio_tracks":previewAudioTrackCount,"source":source.path,"xiaohongshu_verified":false]
 var validationFinished=false
 PHLivePhoto.request(withResourceFileURLs:[jpg,mov],placeholderImage:nil,targetSize:CGSize(width:270,height:360),contentMode:.aspectFit) { live, info in
     if (info[PHLivePhotoInfoIsDegradedKey] as? Bool)==true { return }
